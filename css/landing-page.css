@@ -3,7 +3,7 @@ verde principal:  #59d359
 verde secundario:
 */
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; color:#716b70; }
 
 h1,
 h2,
@@ -45,12 +45,9 @@ header.masthead {
   padding: 3rem; }
 
 .showcase .showcase-img {
-  min-height: 30rem;
+  width:100%;
+    height:400px;
   background-size: cover; }
-
-@media (min-width: 768px) {
-  .showcase .showcase-text {
-    padding: 7rem; } }
 
 .features-icons {
   padding-top: 7rem;
@@ -97,6 +94,10 @@ footer.footer {
 
 .mb-5{
     margin-bottom:0 !important;
+}
+
+.my-auto{
+    margin:0;
 }
 
 /* Naevgação */
@@ -380,4 +381,30 @@ footer.footer {
 
 .menu .flex i{
     margin:1rem;
+}
+
+/* Showcase Text */
+
+.showcase{
+    padding:3rem 0;
+}
+
+.showcase .btn{
+    margin-top:3rem;
+}
+
+.showcase .row{
+    margin:4rem;
+}
+
+.showcase p{
+    font-size:2.5rem;
+    text-transform:uppercase;
+    line-height:40px;
+    font-weight:lighter;
+}
+
+.showcase p span{
+    font-weight:900;
+
 }
