@@ -51,6 +51,7 @@ menuDisplayButton.onclick = function() {
 var painelButton = document.getElementsByClassName("painel-button");
 var painel = document.getElementsByClassName("painel-inner");
 
+
 window.onload = function() {
     painel[0].style.display = "block";
     painelButton[0].classList.add("painel-button-active");
