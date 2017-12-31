@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Recriando raízes</title>
-    <link href="css/animate.css" rel="stylesheet">  
+    <title>Recriando raízes</title> 
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="css/landing-page.css" rel="stylesheet">
+       <link href="css/animate.css" rel="stylesheet"> 
     
 
   </head>
@@ -22,45 +22,51 @@
     <!-- Navegação -->
     <nav class="navbar">
       <div class="container">
-        <img src="img/logo.jpg" alt="Recriando raízes">
-        <ul class="nav">  
-            <div class="dropdown-div">
-              <a href="#" class="dropdown-a">
-                Sobre<i class="fa fa-caret-down" aria-hidden="true"></i>
-              </a>
-              <ul class="animated bounceIn dropdown-painel painel1">
-                <li><a href="#" class="border-top">Nossa Historia</a></li>
-                <li><a href="#">Equipe</a></li>
-                <li><a href="#">Parceiros</a></li>
-              </ul>
-            </div>
-            
-            <div class="dropdown-div">
-              <a href="#" class="dropdown-a">
-                Projetos<i class="fa fa-caret-down" aria-hidden="true"></i>
-              </a>
-              <ul class="animated bounceIn dropdown-painel painel2">
-                <li><a href="#" class="border-top">Infantil/Educação</a></li>
-                <li><a href="#">Jovens/Geração de renda</a></li>
-                <li><a href="#">Mulheres/Empoderamento</a></li>
-                <li><a href="#">Defesa de direitos</a></li>
-              </ul>
-            </div>
-            
-            <div class="dropdown-div">
-              <a href="#" class="dropdown-a">
-                Faça parte<i class="fa fa-caret-down" aria-hidden="true"></i>
-              </a>
-              <ul class="animated bounceIn dropdown-painel painel3">
-                <li><a href="#" class="border-top">Voluntário</a></li>
-                <li><a href="#">Corporativo</a></li>
-                <li><a href="#">Doe</a></li>
-              </ul>
-            </div>
-        </ul>
+        <div class="col-md-2">
+            <a href=""><img src="img/logo.jpg" alt="Recriando raízes"></a>
+        </div>
+        <div class="col-md-7">
+            <ul class="nav">  
+                <div class="dropdown-div">
+                  <a href="#" class="dropdown-a">
+                    Sobre<i class="fa fa-caret-down" aria-hidden="true"></i>
+                  </a>
+                  <ul class="animated bounceIn dropdown-painel painel1">
+                    <li><a href="#" class="border-top">Nossa Historia</a></li>
+                    <li><a href="#">Equipe</a></li>
+                    <li><a href="#">Parceiros</a></li>
+                  </ul>
+                </div>
+
+                <div class="dropdown-div">
+                  <a href="#" class="dropdown-a">
+                    Projetos<i class="fa fa-caret-down" aria-hidden="true"></i>
+                  </a>
+                  <ul class="animated bounceIn dropdown-painel painel2">
+                    <li><a href="#" class="border-top">Infantil/Educação</a></li>
+                    <li><a href="#">Jovens/Geração de renda</a></li>
+                    <li><a href="#">Mulheres/Empoderamento</a></li>
+                    <li><a href="#">Defesa de direitos</a></li>
+                  </ul>
+                </div>
+
+                <div class="dropdown-div">
+                  <a href="#" class="dropdown-a">
+                    Faça parte<i class="fa fa-caret-down" aria-hidden="true"></i>
+                  </a>
+                  <ul class="animated bounceIn dropdown-painel painel3">
+                    <li><a href="#" class="border-top">Voluntário</a></li>
+                    <li><a href="#">Corporativo</a></li>
+                    <li><a href="#">Doe</a></li>
+                  </ul>
+                </div>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <a class="btn btn-primary" href="#">Doar</a>
+            <i class="icon-menu"></i>
+        </div>
       </div>
-        <a class="btn btn-primary" href="#">Doar</a>
-        <i class="icon-menu"></i>
         
         <!-- MENU LATERAL -->
         <div class="menu animated bounceInRight" role="navigation">
@@ -115,79 +121,74 @@
     
     <!-- PAINEL -->
     <div class="painel-buttons">
-        <div class="painel-button-active">
+        <div class="painel-button">
             <p>Nosso impacto</p>
         </div>
-        <div>
+        <div class="painel-button">
             <p>Nossa Missão</p>
         </div>
-        <div>
+        <div class="painel-button">
             <p>Nossa Visão</p>
         </div>
         
     </div>
     <section class="painel-center">
       <div class="container">
-        <div class="flex painel-inner">
-            <div class="parag">
-                <h3>Titulo</h3>
-                <p>Lorem ipsum dolor sit amet</p>
-                <p style="text-indent:5px"><span>consectetur adipiscing elit,</span></p> 
-                <p style="text-indent:10px">sed do eiusmod tempor</p> 
-                <p style="text-indent:15px">incididunt ut labore et</p> 
-                <p style="text-indent:20px">dolore magna aliqu</p>
+        <div class="animated fadeIn painel-inner">
+            <div class="row">
+                <div class="col-md-2">
+                    <h3>Lorem ipsum dolor sit</h3>
+                    <span>amet, consectetur</span> 
+                    <p>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/example.jpg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <h2>92</h2>
+                    <h3>Lorem ipsum dolor sit</h3>
+                    <span>amet, consectetur</span>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/example.jpg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <h2>$101</h2>
+                    <h3>Lorem ipsum dolor sit</h3>
+                    <span>amet, consectetur</span>
+                </div>
+                
             </div>
-            <div class="flex">
-                <img src="img/example.jpeg" alt="">
-                <div class="parag">
-                    <h3>Titulo</h3>
-                    <p>Lorem ipsum dolor sit amet</p>
-                    <p style="text-indent:5px"><span>consectetur adipiscing elit,</span></p> 
-                    <p style="text-indent:10px">sed do eiusmod tempor</p> 
-                    <p style="text-indent:15px">incididunt ut labore et</p> 
-                    <p style="text-indent:20px">dolore magna aliqu</p>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="img/example.jpg" alt="">
+                </div>
+                <div class="col-md-3">
+                    <h2>92</h2>
+                    <h3>Lorem ipsum dolor sit</h3>
+                    <span>amet, consectetur</span>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/example.jpg" alt="">
+                </div>
+                <div class="col-md-3">
+                    <h2>92</h2>
+                    <h3>Lorem ipsum dolor sit</h3>
+                    <span>amet, consectetur</span>
                 </div>
             </div>
+        </div>
             
-            <div class="flex">
-                <img src="img/example.jpeg" alt="">
-                <div class="parag">
-                    <h3>Titulo</h3>
-                    <p>Lorem ipsum dolor sit amet</p>
-                    <p style="text-indent:5px"><span>consectetur adipiscing elit,</span></p> 
-                    <p style="text-indent:10px">sed do eiusmod tempor</p> 
-                    <p style="text-indent:15px">incididunt ut labore et</p> 
-                    <p style="text-indent:20px">dolore magna aliqu</p>
-                </div>
-            </div>
         </div>
           
-        <div class="flex painel-inner">
-            <div class="flex">
-                 <img src="img/example.jpeg" alt="">
-                <div class="parag">
-                    <h3>Titulo</h3>
-                    <p>Lorem ipsum dolor sit amet</p>
-                    <p style="text-indent:5px"><span>consectetur adipiscing elit,</span></p> 
-                    <p style="text-indent:10px">sed do eiusmod tempor</p> 
-                    <p style="text-indent:15px">incididunt ut labore et</p> 
-                    <p style="text-indent:20px">dolore magna aliqu</p>
-                </div>
-            </div>
-            
-            <div class="flex">
-                 <img src="img/example.jpeg" alt="">
-                <div class="parag">
-                    <h3>Titulo</h3>
-                    <p>Lorem ipsum dolor sit amet</p>
-                    <p style="text-indent:5px"><span>consectetur adipiscing elit,</span></p> 
-                    <p style="text-indent:10px">sed do eiusmod tempor</p> 
-                    <p style="text-indent:15px">incididunt ut labore et</p> 
-                    <p style="text-indent:20px">dolore magna aliqu</p>
-                </div>
-            </div>
+        <div class="animated fadeIn painel-inner painel-inner">
+            <p>Nossa Missão</p>
         </div>
-      </div>
+          
+          
+        <div class="animated fadeIn painel-inner painel-inner">
+            <p>Nossa Visão</p>
+        </div>
     </section>
 
     <!-- Parceiros -->
