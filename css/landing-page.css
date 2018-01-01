@@ -493,6 +493,29 @@ footer.footer {
     font-weight:900;
 }
 
+/*FAÇA PARTE*/
+
+.faca-parte{
+    padding:1rem;
+    background-color:#deefde;
+}
+
+.faca-parte img{
+    width:100%;
+    height:50%;
+    border-radius:10px;
+}
+
+.faca-parte .row{
+    margin:1rem 0;
+}
+
+.faca-parte button{
+    display:block;
+    margin:1rem auto;
+    
+}
+
 /* PARCEIROS */
 
 .parceiros img{
