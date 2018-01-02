@@ -1,6 +1,6 @@
 /*Cores
 verde principal:#2de558 
-verde secundario:
+verde texto: #716b70
 */
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; color:#716b70;
@@ -513,13 +513,23 @@ footer.footer {
 .faca-parte button{
     display:block;
     margin:1rem auto;
-    
+}
+
+.faca-parte h2{
+    text-align:center;
+    margin:1rem;
+    text-transform:uppercase;
 }
 
 /* PARCEIROS */
 
 .parceiros img{
     width:100%;
+    transition:0.2s;
+}
+
+.parceiros img:hover{
+    opacity:0.7;
 }
 
 .parceiros h2{
@@ -527,4 +537,53 @@ footer.footer {
     text-transform:uppercase;
     text-align:center;
     margin: 2rem 0;
+}
+
+.parceiros button{
+    display:block;
+    margin: 1rem auto;
+}
+
+/*FOOTER*/
+
+.footer{
+    background:#deefde;
+}
+
+.footer .form-row div input{
+    display:inline;
+}
+
+.footer form input{
+    float:left;
+    padding:0.7rem;
+    height:48px;
+}
+
+.footer form .fa{
+    color:#716b70;
+}
+
+.footer button{
+    background:none;
+    border:1px solid black;
+    border-radius:0px;
+    height:48px;
+}
+
+.footer button:hover{
+    background:none;
+    border-color:#716b70;
+}
+
+.footer .row{
+    margin: 2rem 0;
+}
+
+.footer a{
+    color:#716b70;
+}
+
+.footer a:hover{
+    color:#2de558;
 }
