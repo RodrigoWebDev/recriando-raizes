@@ -86,3 +86,12 @@ painelButton[2].onclick = function() {
     painel[1].style.display = "none";
     painel[2].style.display = "block";
 }
+
+let navMobile = document.querySelectorAll(".nav-mobile > ul > li");
+
+for (let i = 0; i < navMobile.length; i++) {
+    navMobile[i].onclick = function() {
+        let ul = this.nextElementSibling;
+        ul.classList.toggle("display");
+    }
+}

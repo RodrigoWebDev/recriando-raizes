@@ -118,6 +118,9 @@ footer.footer {
     width:100%;
 }
 
+.navbar .row{
+    align-items:center;
+}
 
 .navbar .btn{
     margin-right:1.4rem;
@@ -128,6 +131,10 @@ footer.footer {
     justify-content: flex-start;
 }
 
+.navbar .nav > ul{
+    display:flex;
+    margin:0;
+}
 .navbar ul a{
     color:#716b70;
     text-transform:uppercase;
@@ -151,6 +158,14 @@ footer.footer {
 
 .navbar .icon-menu{
     cursor:pointer;
+}
+
+.navbar .hide-menu{
+    display:none;
+}
+
+.nav-mobile{
+    display:none;
 }
 
 .dropdown-a{
@@ -380,8 +395,11 @@ footer.footer {
 }
 
 
-
 /* Menu lateral */
+.menu-mobile{
+    display:none;
+}
+
 .menu{
     background:#322B2B;
     position:absolute;
@@ -586,4 +604,86 @@ footer.footer {
 
 .footer a:hover{
     color:#2de558;
+}
+
+@media screen and (max-width:320px) {
+    
+    /*NAVBAR*/
+    .navbar .nav{
+        display:none;
+    }
+    
+    .navbar .left-menu{
+        display:none;
+    }
+    
+    .navbar .btn{
+        text-align:center;
+    }
+    
+    .navbar .hide-menu{
+        display:inline;
+        float:right;
+        margin:10px;
+    }
+    
+    .nav-mobile{
+        display:block;
+        position:absolute;
+        background-color:white;
+        width:100%;
+        top:0;
+        left:0;
+    }
+    
+    .nav-mobile ul{
+        margin:0;
+        padding:0;
+    }
+    
+    .nav-mobile li{
+        list-style:none;
+        border-bottom:1px solid #716b70;
+        text-align:left;
+        margin:0 !important;
+        text-transform:uppercase;
+    }
+    
+    .nav-mobile li:hover{
+        background:#2de558;
+        color:white;
+        text-decoration:none;
+    }
+    
+    .nav-mobile li a{
+        display:block;
+        margin:0 1rem;
+        padding:1rem 0;
+        font-size:1.2rem;
+    }
+    
+    .nav-mobile li a:hover{
+        background:#2de558;
+        color:white !important;
+        text-decoration:none;
+        
+    }
+    
+    .nav-mobile li a i{
+        float:right;
+    }
+    
+   
+    
+    .nav-mobile .dropdown-painel{
+        display:block;
+        position:static;
+        display:none;
+    }
+    
+    .display{
+        display:block;
+    }
+    
+    
 }

@@ -12,7 +12,7 @@
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="css/landing-page.css" rel="stylesheet">
-       <link href="css/animate.css" rel="stylesheet"> 
+    <link href="css/animate.css" rel="stylesheet"> 
     
 
   </head>
@@ -20,34 +20,35 @@
   <body>
 
     <!-- Navegação -->
-    <nav class="navbar">
+   <nav class="navbar">
       <div class="container">
-        <div class="col-md-2">
-            <a href=""><img src="img/logo.jpg" alt="Recriando raízes"></a>
-        </div>
-        <div class="col-md-7">
-            <ul class="nav">  
-                <div class="dropdown-div">
-                  <a href="#" class="dropdown-a">
-                    Sobre<i class="fa fa-caret-down" aria-hidden="true"></i>
-                  </a>
-                  <ul class="animated bounceIn dropdown-painel painel1">
-                    <li><a href="#" class="border-top">Nossa Historia</a></li>
-                    <li><a href="#">Equipe</a></li>
-                    <li><a href="#">Parceiros</a></li>
-                  </ul>
-                </div>
+        <div class="row">
+            <div class="col-md-2 col-xs-12">
+                <a href="index.html"><img src="img/logo.jpg" alt="Recriando raízes"></a>
+            </div>
+            <div class="nav col-md-7">
+                <ul>  
+                    <div class="dropdown-div">
+                      <a href="#" class="dropdown-a">
+                        Sobre<i class="fa fa-caret-down" aria-hidden="true"></i>
+                      </a>
+                      <ul class="animated bounceIn dropdown-painel painel1">
+                        <li><a href="nossa-historia.html" class="border-top">Nossa Historia</a></li>
+                        <li><a href="equipe.html">Equipe</a></li>
+                        <li><a href="parceiros.html">Parceiros</a></li>
+                      </ul>
+                    </div>
 
-                <div class="dropdown-div">
-                  <a href="#" class="dropdown-a">
-                    Projetos<i class="fa fa-caret-down" aria-hidden="true"></i>
-                  </a>
-                  <ul class="animated bounceIn dropdown-painel painel2">
-                    <li><a href="#" class="border-top">Infantil/Educação</a></li>
-                    <li><a href="#">Jovens/Geração de renda</a></li>
-                    <li><a href="#">Mulheres/Empoderamento</a></li>
-                    <li><a href="#">Defesa de direitos</a></li>
-                  </ul>
+                    <div class="dropdown-div">
+                      <a href="#" class="dropdown-a">
+                        Projetos<i class="fa fa-caret-down" aria-hidden="true"></i>
+                      </a>
+                      <ul class="animated bounceIn dropdown-painel painel2">
+                        <li><a href="infantil.html" class="border-top">Infantil/Educação</a></li>
+                        <li><a href="jovens.html">Jovens/Geração de renda</a></li>
+                        <li><a href="mulheres.html">Mulheres/Empoderamento</a></li>
+                        <li><a href="defesa.html">Defesa de direitos</a></li>
+                      </ul>
                 </div>
 
                 <div class="dropdown-div">
@@ -55,17 +56,62 @@
                     Faça parte<i class="fa fa-caret-down" aria-hidden="true"></i>
                   </a>
                   <ul class="animated bounceIn dropdown-painel painel3">
-                    <li><a href="#" class="border-top">Voluntário</a></li>
-                    <li><a href="#">Corporativo</a></li>
-                    <li><a href="#">Doe</a></li>
+                    <li><a href="voluntario.html" class="border-top">Voluntário</a></li>
+                    <li><a href="corporativo.html">Corporativo</a></li>
+                    <li><a href="doe.html">Doe</a></li>
                   </ul>
                 </div>
             </ul>
+            </div>
+            
+            <div class="col-md-3">
+                <a class="btn btn-primary" href="doe.html">Doar</a>
+                <i class="left-menu icon-menu"></i>
+                <i class="icon-menu hide-menu"></i>
+            </div>
         </div>
-        <div class="col-md-3">
-            <a class="btn btn-primary" href="#">Doar</a>
-            <i class="icon-menu"></i>
-        </div>
+        <div class="nav-mobile">
+                <ul>
+                    <li>Sobre<i class="icon-arrow-down"></i></li>
+                    <ul class="dropdown-painel painel1">
+                        <li><a href="nossa-historia.html" class="border-top">Nossa Historia</a></li>
+                        <li><a href="equipe.html">Equipe</a></li>
+                        <li><a href="parceiros.html">Parceiros</a></li>
+                    </ul>
+                    <li>Projetos<i class="icon-arrow-down"></i></li>
+                    <ul class="dropdown-painel painel2">
+                        <li><a href="infantil.html" class="border-top">Infantil/Educação</a></li>
+                        <li><a href="jovens.html">Jovens/Geração de renda</a></li>
+                        <li><a href="mulheres.html">Mulheres/Empoderamento</a></li>
+                        <li><a href="defesa.html">Defesa de direitos</a></li>
+                    </ul>
+                    <li>Faça parte<i class="icon-arrow-down"></i></li>
+                    <ul class="dropdown-painel painel3">
+                        <li><a href="voluntario.html" class="border-top">Voluntário</a></li>
+                        <li><a href="corporativo.html">Corporativo</a></li>
+                        <li><a href="doe.html">Doe</a></li>
+                    </ul>
+                </ul>
+                <div class="menu animated bounceInRight" role="navigation">
+                    <i id="close" class="fa fa-times" aria-hidden="true"></i>
+                    <p><a href="">Take a course</a></p>
+                    <img src="img/menu-right.jpg" alt="">
+                    <h4>January 9, 2018</h4>
+                    <h2>Social Entrepreneurship 101</h2>
+                    <a href="#" class="learn-more"><i class="fa fa-arrow-right" aria-hidden="true"></i><span>Learn more</span></a>
+                    <ul> 
+                        <li><a href="#">Apply for a fellowship<span class="icon-arrow-right"></span></a></li>
+                        <li><a href="#">Partner With Us<span class="icon-arrow-right"></span> </a></li>
+                        <li><a href="#">Work With Us <span class="icon-arrow-right"></span></a></li>
+                        <li><a href="#">Other Ways to Give<span class="icon-arrow-right"></span> </a></li>
+                        <li><a href="#">Sign-up for our newsletter<span class="icon-arrow-right"></span></a></li>
+                    </ul>
+                    <ul class="flex">
+                        <li><a href="https://www.facebook.com/ONGrecriandoraizes/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/recriandoraizes/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
       </div>
         
         <!-- MENU LATERAL -->
@@ -89,7 +135,7 @@
             </ul>
         </div>
     </nav>
-
+      
     <!-- Masthead -->
     <header class="masthead text-white text-center">
       <div class="container">
