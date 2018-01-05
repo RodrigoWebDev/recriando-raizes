@@ -2,6 +2,14 @@ header.masthead {
     background: url("../img/banner-nossa-historia.jpg") no-repeat center center;
 }
 
+.showcase{
+    padding:0;
+}
+
+.showcase p{
+    line-height:normal;
+}
+
 .showcase .no-gutters div:nth-child(2) p{
     font-size:1rem;
     text-shadow:none;
