@@ -1,11 +1,8 @@
-var dropdown = document.getElementsByClassName("dropdown-a");
+//Menu dropdown da navegação
 var painel = document.getElementsByClassName("dropdown-painel");
-var learnMore = document.getElementsByClassName("learn-more")[0];
-var close = document.getElementById("close");
-var menuDisplayButton = document.getElementsByClassName("icon-menu")[0];
+var dropdown = document.getElementsByClassName("dropdown-a");
 
-
-for (i=0; i < dropdown.length; i++){
+for (i = 0; i < dropdown.length; i++){
     dropdown[i].onmouseover = function() {
         var drop = this.nextElementSibling;
         drop.style.display = "block";
@@ -21,22 +18,11 @@ for (i=0; i < dropdown.length; i++){
         this.style.display = "none";
     }
 }
-    
-learnMore.onmouseover = function() {
-    var icon = this.children[0];
-    var span = this.children[1];
-    span.style.color = "#57bb57";
-    icon.style.color = "#57bb57";
-    this.style.borderBottom = "1px solid #57bb57";
-}
 
-learnMore.onmouseout = function() {
-    var icon = this.children[0];
-    var span = this.children[1];
-    span.style.color = "white";
-    icon.style.color = "white";
-    this.style.borderBottom = "1px solid white";
-}
+
+//Botao de fechar o menu lateral
+var close = document.getElementById("close");
+var menuDisplayButton = document.getElementsByClassName("icon-menu")[0];
 
 close.onclick = function() {
     var menu = document.getElementsByClassName("menu")[0];
@@ -87,11 +73,3 @@ painelButton[2].onclick = function() {
     painel[2].style.display = "block";
 }
 
-let navMobile = document.querySelectorAll(".nav-mobile > ul > li");
-
-for (let i = 0; i < navMobile.length; i++) {
-    navMobile[i].onclick = function() {
-        let ul = this.nextElementSibling;
-        ul.classList.toggle("display");
-    }
-}

@@ -89,6 +89,10 @@ footer.footer {
     cursor:pointer;
 }
 
+.display{
+    display:none;
+}
+
 .fa{
     color:#2de558;
 }
@@ -412,19 +416,30 @@ footer.footer {
     display:none;
 }
 
-.menu .fa{
-    color:white;
-    cursor:pointer;
-    font-size:2rem;
+.menu hr{
+    background-color:white;
 }
 
 .menu p{
     color:white;
     margin: 1rem 0;
     text-transform: uppercase;
+    text-align:right;
 }
 
 .menu a{
+    color:#57bb57;
+    
+}
+
+.menu .fa{
+    font-size:2rem;
+    margin-bottom:1rem;
+    cursor:pointer;
+    color:white;  
+}
+
+.menu .fa:hover{
     color:#57bb57;
 }
 
@@ -437,34 +452,22 @@ footer.footer {
     font-weight:lighter;
     font-size:0.9rem;
     margin-top:2rem;
+    text-align:right;
 }
 
 .menu h2{
     color:white;
     font-size:1.5rem;
     font-weight:100;
-}
-
-.menu a.learn-more{
-    border-bottom:1px solid white;
-    color:white;
-    padding: 5px 0;
-    text-transform:uppercase;
-}
-
-.menu a.learn-more i{
-    margin-right:5px;
-}
-
-.menu a.learn-more:hover{
-    color:#57bb57;
-    text-decoration:none;
+    text-align:right;
 }
 
 .menu ul{
     list-style: none;
     margin:1rem 0;
     padding:0;
+    text-align:right;
+    clear:both;
 }
 
 .menu ul li a{
@@ -475,14 +478,28 @@ footer.footer {
 
 .menu ul li{
     margin:0;
+    text-align:center;
 }
 
 .menu ul li span{
-    float:right;
+    float:left;
 }
 
 .menu .flex i{
     margin:1rem;
+}
+
+.menu form input{
+    display:block;
+    text-align:center;
+    width:100%;
+    margin:1rem 0;
+    padding:0.5rem;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    background:none;
+    color:white;
 }
 
 /* Showcase Text */
@@ -681,9 +698,6 @@ footer.footer {
         display:none;
     }
     
-    .display{
-        display:block;
-    }
     
     
 }
