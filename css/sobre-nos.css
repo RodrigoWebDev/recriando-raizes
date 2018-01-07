@@ -35,6 +35,7 @@ header.masthead {
 .contexto p{
     color:black;
     font-weight:200;
+    line-height: 2rem;
 }
 
 .contexto h2{
