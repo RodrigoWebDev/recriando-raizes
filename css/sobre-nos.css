@@ -1,3 +1,4 @@
+/* GERAL */
 header.masthead {
     background: url("../img/banner-nossa-historia.jpg") no-repeat center center;
 }
@@ -26,4 +27,24 @@ header.masthead {
     text-shadow:none;
     color:black;
     text-transform: none;
+}
+
+
+/* CONTEXTO */
+
+.contexto p{
+    color:black;
+    font-weight:200;
+}
+
+.contexto h2{
+    text-transform: uppercase;
+}
+
+.contexto .mapa i{
+    color:black;
+}
+
+.contexto .mapa iframe{
+    height:300px;
 }
