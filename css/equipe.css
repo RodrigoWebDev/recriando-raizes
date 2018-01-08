@@ -1,0 +1,11 @@
+/*GERAL*/
+header.masthead {
+    background: url("../img/quem-somos.jpg") no-repeat center center;
+    background-size:100%;
+    background-position:top;
+}
+
+header.masthead .container{
+    padding-left:200px;
+    padding-right:200px;
+}
