@@ -32,13 +32,13 @@ header.masthead {
 
 /* CONTEXTO */
 
-.contexto p{
+.contexto p, .fundadora p{
     color:black;
     font-weight:200;
     line-height: 2rem;
 }
 
-.contexto h2{
+.contexto h2, .fundadora h2{
     text-transform: uppercase;
 }
 
@@ -48,4 +48,18 @@ header.masthead {
 
 .contexto .mapa iframe{
     height:300px;
+}
+
+.fundadora img{
+    width:80%;
+}
+
+.historia{
+    background-color:#F4F4F4;
+    padding:4rem 0;
+    border:5px dashed #EFEFEF;
+}
+
+section{
+    margin-bottom:4rem;
 }
