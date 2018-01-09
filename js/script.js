@@ -72,4 +72,3 @@ painelButton[2].onclick = function() {
     painel[1].style.display = "none";
     painel[2].style.display = "block";
 }
-

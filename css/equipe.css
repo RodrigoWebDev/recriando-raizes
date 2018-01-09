@@ -9,3 +9,85 @@ header.masthead .container{
     padding-left:200px;
     padding-right:200px;
 }
+
+/*Menu lateral direito*/
+
+.menu-right{
+    background:#322B2B;
+    color:#FFFFFF;
+    position:fixed;
+    left:0;
+    padding:2rem;
+    width:35%;
+    height:100vh;
+    z-index:1;
+    display:none;
+}
+
+.menu-right p{
+    margin:1rem;
+}
+
+
+.menu-right img{
+    width:100%;
+}
+
+.menu-right h3, .voluntarios h3{
+    font-size:1rem;
+    color:#2de558;
+    font-weight:lighter;
+    text-transform: uppercase;
+}
+
+.menu-right h2, .voluntarios h2{
+    text-transform: uppercase;
+    font-size:1.5rem;
+}
+
+.menu-right h4, .voluntarios h4{
+    font-size:1rem;
+    font-weight:lighter;
+}
+
+.menu-right .fa{
+    font-size:1.5rem;
+    color:inherit;
+    cursor:pointer;
+}
+
+.menu-right .fa:hover{
+    color:#2de558;
+}
+
+.menu-right div:first-child{
+    display:flex;
+    justify-content: flex-end;
+}
+
+/*Voluntarios*/
+
+.voluntarios{
+    padding:1rem 3rem;
+}
+
+.voluntarios .row{
+    margin:0.5rem 0;
+}
+
+.voluntarios img{
+    width:150px;
+}
+
+.voluntarios .col-md-4 .col-md-8{
+    background:white;
+    padding:10px;
+}
+
+.voluntarios .col-md-4 .col-md-4{
+    padding:0 !important;
+}
+
+.voluntarios .voluntario:hover{
+    cursor:pointer;
+}
