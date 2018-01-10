@@ -91,3 +91,27 @@ header.masthead .container{
 .voluntarios .voluntario:hover{
     cursor:pointer;
 }
+
+/*TABS*/
+
+.tabs{
+    background:#322B2B;
+}
+
+.tabs p{
+    text-align: center;
+    margin:0;
+    padding:2rem;
+    font-size:1.3rem;
+    font-weight:lighter;
+    color:white;
+    text-transform:uppercase;
+}
+
+.tabs .active{
+    background-color:#2de558;
+}
+
+.tab{
+    cursor:pointer;
+}
