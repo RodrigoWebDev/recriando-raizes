@@ -1,0 +1,73 @@
+/* GERAL */
+header.masthead {
+    background: url("../img/voluntario-banner.jpg") no-repeat center center;
+    background-size:100%;
+}
+
+.masthead .container h3{
+    margin:0 200px;
+    padding-bottom:1.2rem;
+}
+
+/*SECAO*/
+
+.secao{
+    text-align:center;
+    padding: 2rem 0;
+}
+
+.secao .fa{
+    font-size:8rem;
+    color:inherit;
+    display:block;
+    
+}
+
+/*Fazer parte*/
+
+.fazer-parte{
+    padding:3rem 0;
+    text-align:center;
+    background:white;
+}
+
+.fazer-parte h2{
+    font-size:1.5rem;
+    text-transform:uppercase;
+    padding: 2rem 0;
+}
+
+.fazer-parte h3{
+    border-left:20px solid #2DE558;
+    background:#DEEFDE;
+}
+
+.fazer-parte p{
+    font-size:1.2rem;
+    
+}
+
+/*AREAS*/
+
+.areas{
+    text-align:center;
+    padding:2rem 0;
+}
+
+.areas .fa{
+    font-size:4rem;
+    color:inherit;
+}
+
+.areas p{
+    font-size:1.2rem;
+    font-weight:bolder;
+}
+
+.areas .container > div{
+    padding:2.5rem 0;
+}
+
+.areas h3{
+    font-weight:lighter;
+}
