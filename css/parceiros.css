@@ -1,69 +1,80 @@
 /* GERAL */
 header.masthead {
-    background: url("../img/banner-nossa-historia.jpg") no-repeat center center;
+    background: url("../img/parceiros.jpg") no-repeat center center;
+
 }
 
-.showcase{
-    padding:0;
+.masthead h3{
+    text-shadow:1px 1px 5px black;
 }
 
-.showcase .no-gutters div:nth-child(2) p{
+.masthead span{
+    font-weight:bolder;
+}
+
+.masthead .container{
+    padding:0 200px;
+}
+
+.showcase .text p{
     font-size:1rem;
+    font-weight:lighter;
     text-shadow:none;
 }
 
-.showcase-image img{
-    width:80%;
-    display:block;
-    margin:0 auto;
+/*PARCEIRO*/
+
+.parceiro{
+    background:#2de558;
+    color:white;
+    padding:1.5rem;
 }
 
-.main h2{
+.parceiro h2{
     text-align:center;
-}
-
-.main p{
-    font-size:1rem;
-    text-shadow:none;
-    color:black;
-    text-transform: none;
-}
-
-
-/* CONTEXTO */
-
-.contexto p, .fundadora p{
-    color:black;
-    font-weight:200;
-    line-height: 2rem;
-}
-
-.contexto h2, .fundadora h2{
     text-transform: uppercase;
+    font-size:1.9rem;
+    font-weight:bolder;
+    text-shadow:1px 1px 10px black;
 }
 
-.contexto .mapa i{
-    color:black;
+.parceiro h3{
+    font-weight:lighter;
+    text-align:center;
+    text-transform: uppercase;
+    text-shadow:1px 1px 10px black;
 }
 
-.contexto .mapa iframe{
-    height:300px;
+.parceiro .row{
+    padding:1rem;
 }
 
-.fundadora{
-    padding:2rem 0;
+.parceiro .row h3{
+    font-weight:bold;
+    text-align:left;
 }
 
-.fundadora img{
-    width:80%;
+.parceiro hr{
+    background:white;
 }
 
-.historia{
-    background-color:#F4F4F4;
-    padding:4rem 0;
-    border:5px dashed #EFEFEF;
+.parceiro p{
+    font-weight:lighter;
+    line-height:30px;
 }
 
-section{
-    margin-bottom:4rem;
+.parceiro img{
+    width:100%;
+}
+
+/*PARCEIROS*/
+
+.parceiros h2{
+    margin:0;
+    padding-top:3rem;
+}
+
+.parceiros h3{
+    font-weight:lighter;
+    text-align:center;
 }
