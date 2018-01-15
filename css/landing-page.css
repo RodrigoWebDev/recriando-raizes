@@ -3,8 +3,11 @@ verde principal:#2de558
 verde texto: #716b70
 */
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; color:#716b70;
-background-image: url(../img/fundo.svg);}
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; color:#716b70;}
+
+section{
+    padding: 2rem;
+}
 
 h1,
 h2,
@@ -103,6 +106,10 @@ footer.footer {
 
 .my-auto{
     margin:0;
+}
+
+hr{
+    background:#909090;
 }
 
 /* Naevgação */
@@ -582,7 +589,8 @@ footer.footer {
 /*FOOTER*/
 
 .footer{
-    background:#deefde;
+    background:#322B2B;
+    color:white;
 }
 
 .footer .form-row div input{
@@ -595,12 +603,8 @@ footer.footer {
     height:48px;
 }
 
-.footer form .fa{
-    color:#716b70;
-}
-
 .footer button{
-    background:none;
+    background:white;
     border:1px solid black;
     border-radius:0px;
     height:48px;
@@ -615,11 +619,11 @@ footer.footer {
     margin: 2rem 0;
 }
 
-.footer a{
+.footer a,.footer .fa{
     color:#716b70;
 }
 
-.footer a:hover{
+.footer a:hover,.footer .fa:hover{
     color:#2de558;
 }
 

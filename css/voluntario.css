@@ -13,7 +13,6 @@ header.masthead {
 
 .secao{
     text-align:center;
-    padding: 2rem 0;
 }
 
 .secao .fa{
@@ -26,7 +25,6 @@ header.masthead {
 /*Fazer parte*/
 
 .fazer-parte{
-    padding:3rem 0;
     text-align:center;
     background:white;
 }
@@ -49,9 +47,12 @@ header.masthead {
 
 /*AREAS*/
 
+.areas .row{
+    margin:2rem 0;
+}
+
 .areas{
     text-align:center;
-    padding:2rem 0;
 }
 
 .areas .fa{
@@ -62,10 +63,6 @@ header.masthead {
 .areas p{
     font-size:1.2rem;
     font-weight:bolder;
-}
-
-.areas .container > div{
-    padding:2.5rem 0;
 }
 
 .areas h3{
