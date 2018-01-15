@@ -17,7 +17,7 @@ for (i = 0; i < voluntario.length; i++) {
         var h3 = divRight.children[0];
         divRight.style.background = "white";
         divRight.style.color = "inherit";
-        h3.style.color = "#2de558";
+        h3.style.color = "inherit";
     }
     
     voluntario[i].onclick = function() {
