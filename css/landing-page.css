@@ -649,59 +649,28 @@ hr{
     }
     
     .nav-mobile{
-        display:block;
-        position:absolute;
-        background-color:white;
-        width:100%;
-        top:0;
-        left:0;
-    }
-    
-    .nav-mobile ul{
-        margin:0;
-        padding:0;
-    }
-    
-    .nav-mobile li{
-        list-style:none;
-        border-bottom:1px solid #716b70;
-        text-align:left;
-        margin:0 !important;
+        text-align:center;
+        padding:1rem 0;
         text-transform:uppercase;
     }
     
-    .nav-mobile li:hover{
-        background:#2de558;
-        color:white;
+    .nav-mobile a{
+        color:inherit;
+    }
+    
+    .nav-mobile a:hover{
         text-decoration:none;
+        color:#2de558;
     }
     
-    .nav-mobile li a{
-        display:block;
-        margin:0 1rem;
-        padding:1rem 0;
-        font-size:1.2rem;
+    .masthead h1{
+        padding:2rem 0;
     }
     
-    .nav-mobile li a:hover{
-        background:#2de558;
-        color:white !important;
-        text-decoration:none;
-        
-    }
-    
-    .nav-mobile li a i{
-        float:right;
-    }
-    
-   
-    
-    .nav-mobile .dropdown-painel{
-        display:block;
-        position:static;
+}
+
+@media screen and (min-width:992px) {
+    .nav-mobile{
         display:none;
     }
-    
-    
-    
 }

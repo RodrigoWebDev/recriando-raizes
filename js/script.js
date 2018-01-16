@@ -1,5 +1,5 @@
 //Menu dropdown da navegação
-var painel = document.getElementsByClassName("dropdown-painel");
+var navPainel = document.getElementsByClassName("dropdown-painel");
 var dropdown = document.getElementsByClassName("dropdown-a");
 
 for (i = 0; i < dropdown.length; i++){
@@ -11,10 +11,10 @@ for (i = 0; i < dropdown.length; i++){
         var drop = this.nextElementSibling;
         drop.style.display = "none";
     }
-    painel[i].onmouseover = function() {
+    navPainel[i].onmouseover = function() {
         this.style.display = "block";
     }
-    painel[i].onmouseout = function() {
+    navPainel[i].onmouseout = function() {
         this.style.display = "none";
     }
 }
@@ -34,8 +34,26 @@ menuDisplayButton.onclick = function() {
     menu.style.display = "block";
 }
 
-var painelButton = document.getElementsByClassName("painel-button");
-var painel = document.getElementsByClassName("painel-inner");
+//Menu mobile
+let mobileButton = document.getElementsByClassName("hide-menu")[0];
+let mobileButtonClick = 0;
+let menuMobile = document.getElementsByClassName("nav-mobile")[0];
+
+mobileButton.onclick = function() {
+    if (mobileButtonClick == 0) {
+        menuMobile.style.display = "block";
+        mobileButtonClick = 1;
+    }
+    else if (mobileButtonClick == 1){
+        menuMobile.style.display = "none";
+        mobileButtonClick = 0;
+    }
+}
+
+//Painel central
+
+let painelButton = document.getElementsByClassName("painel-button");
+let painel = document.getElementsByClassName("painel-inner");
 
 
 window.onload = function() {
@@ -72,3 +90,4 @@ painelButton[2].onclick = function() {
     painel[1].style.display = "none";
     painel[2].style.display = "block";
 }
+
