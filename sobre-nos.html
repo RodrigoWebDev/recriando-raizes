@@ -19,177 +19,115 @@
   <body>
 
     <!-- Navegação -->
-    <nav class="navbar">
-      <div class="container">
-        <div class="row">
-            <div class="col-md-2 col-xs-12">
-                <a href="index.html"><img src="img/logo.jpg" alt="Recriando raízes"></a>
+       <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <img src="img/logo.jpg">
+        <ul>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Sobre
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="sobre-nos.html">Sobre nós</a>
+              <a class="dropdown-item" href="equipe.html">Equipe</a>
+              <a class="dropdown-item" href="parceiros.html">Parceiros</a>
             </div>
-            <div class="nav col-md-7">
-                <ul>  
-                    <div class="dropdown-div">
-                      <a href="#" class="dropdown-a">
-                        Sobre<i class="fa fa-caret-down" aria-hidden="true"></i>
-                      </a>
-                      <ul class="animated bounceIn dropdown-painel painel1">
-                        <li><a href="sobre-nos.html" class="border-top">Sobre nós</a></li>
-                        <li><a href="equipe.html">Equipe</a></li>
-                        <li><a href="parceiros.html">Parceiros</a></li>
-                      </ul>
-                    </div>
+          </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projetos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="infantil.html">Infantil/Educação</a>
+              <a class="dropdown-item" href="jovens.html">Jovens/Geração de renda</a>
+              <a class="dropdown-item" href="mulheres.html">Mulheres/Empoderamento</a>
+              <a class="dropdown-item" href="defesa.html">Defesa de direitos</a>
+            </div>
+          </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Faça parte
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="voluntario.html">Voluntário</a>
+              <a class="dropdown-item" href="corporativo.html">Corporativo</a>
+              <a class="dropdown-item" href="doe.html">Doe</a>
+            </div>
+          </li>
+        </ul>
+        <a class="btn btn-primary" href="doe.html">Doe</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-                    <div class="dropdown-div">
-                      <a href="#" class="dropdown-a">
-                        Projetos<i class="fa fa-caret-down" aria-hidden="true"></i>
-                      </a>
-                      <ul class="animated bounceIn dropdown-painel painel2">
-                        <li><a href="infantil.html" class="border-top">Infantil/Educação</a></li>
-                        <li><a href="jovens.html">Jovens/Geração de renda</a></li>
-                        <li><a href="mulheres.html">Mulheres/Empoderamento</a></li>
-                        <li><a href="defesa.html">Defesa de direitos</a></li>
-                      </ul>
-                </div>
+      <button id="navbar-toggler" class="navbar-toggler navbar-toggler-right" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-                <div class="dropdown-div">
-                  <a href="#" class="dropdown-a">
-                    Faça parte<i class="fa fa-caret-down" aria-hidden="true"></i>
-                  </a>
-                  <ul class="animated bounceIn dropdown-painel painel3">
-                    <li><a href="voluntario.html" class="border-top">Voluntário</a></li>
-                    <li><a href="corporativo.html">Corporativo</a></li>
-                    <li><a href="doe.html">Doe</a></li>
-                  </ul>
-                </div>
-            </ul>
-            </div>
-            
-            <div class="col-md-3">
-                <a class="btn btn-primary" href="#">Doar</a>
-                <i class="left-menu icon-menu"></i>
-                <i class="icon-menu hide-menu"></i>
-            </div>
-        </div>
-        <!--NAV MOBILE-->
-        <div class="container nav-mobile">
-        <div class="row">
-            <div class="col-sm-3">
-                <div class="panel-group" id="accordion">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Sobre</a>
-                            </h4>
-                        </div>
-                        <div id="collapseOne" class="panel-collapse collapse in">
-                            <div class="panel-body">
-                                <table class="table">
-                                    <tr>
-                                        <td>
-                                            <a href="sobre-nos.html">Sobre nós</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="equipe.html">Equipe</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="parceiros.html">Parceiros</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Projetos</a>
-                            </h4>
-                        </div>
-                        <div id="collapseTwo" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <table class="table">
-                                    <tr>
-                                        <td>
-                                            <a href="infantil.html">Infantil</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="jovens.html">Jovens</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="mulheres.html">Mulheres</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="defesa.html">Defesa de direitos</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Faça parte</a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <table class="table">
-                                    <tr>
-                                        <td>
-                                            <a href="voluntario.html">Voluntario</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="corporativo.html">Corporativo</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="doe.html">Doe</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
 
-        </div>
-    </div>
+          <li class="nav-item">
+            <a class="btn btn-primary" href="doe.html">Doe</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Sobre
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="sobre-nos.html">Sobre nós</a>
+              <a class="dropdown-item" href="equipe.html">Equipe</a>
+              <a class="dropdown-item" href="parceiros.html">Parceiros</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projetos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="infantil.html">Infantil</a>
+              <a class="dropdown-item" href="jovens.html">Jovens</a>
+              <a class="dropdown-item" href="mulheres.html">Mulheres</a>
+              <a class="dropdown-item" href="defesa.html">Defesa de direitos</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Faça parte
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="voluntario.html">Voluntário</a>
+              <a class="dropdown-item" href="corporativo.html">Corporativo</a>
+              <a class="dropdown-item" href="doe.html">Doe</a>
+            </div>
+          </li>
+        </ul>
       </div>
-        
-        <!-- MENU LATERAL -->
-        <div class="menu animated bounceInRight" role="navigation">
-            <i id="close" class="fa fa-times" aria-hidden="true"></i>
-            <p><a href="">Take a course</a></p>
-            <img src="img/menu-right.jpg" alt="">
-            <h4>January 9, 2018</h4>
-            <h2>Social Entrepreneurship 101</h2>
-            <a href="#" class="learn-more"><i class="fa fa-arrow-right" aria-hidden="true"></i><span>Learn more</span></a>
-            <ul> 
-                <li><a href="#">Apply for a fellowship<span class="icon-arrow-right"></span></a></li>
-                <li><a href="#">Partner With Us<span class="icon-arrow-right"></span> </a></li>
-                <li><a href="#">Work With Us <span class="icon-arrow-right"></span></a></li>
-                <li><a href="#">Other Ways to Give<span class="icon-arrow-right"></span> </a></li>
-                <li><a href="#">Sign-up for our newsletter<span class="icon-arrow-right"></span></a></li>
-            </ul>
-            <ul class="flex">
-                <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            </ul>
-        </div>
+            <!-- MENU LATERAL -->
+    <div class="menu animated bounceInRight" role="navigation">
+        <i id="close" class="fa fa-times" aria-hidden="true"></i>
+        <img src="img/menu-right.jpg" alt="">
+        <h4>January 9, 2018</h4>
+        <h2><a href="">Ultima notícia</a></h2>
+        <hr>
+        <ul> 
+            <li><a href="voluntario.html">Envolva-se</a></li>
+            <li><a href="parceiros.html">Seja um parceiro</a></li>
+            <li><a href="corporativo.html">Trabalhe conosco</a></li>
+            <li><a href="#">Assine nosso Newsletter</a></li>
+            <div class="newsletter">
+                <form action="#" method="post">
+                    <input type="text" placeholder="Nome">
+                    <input type="text" placeholder="Sobrenome">
+                    <input type="email" placeholder="Email">
+                    <input type="submit" class="btn btn-primary" value="Enviar">
+                </form>
+            </div>
+        </ul>
+        <ul class="flex">
+            <li><a href="https://www.facebook.com/ONGrecriandoraizes/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/recriandoraizes/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
     </nav>
 
     <!-- Masthead -->

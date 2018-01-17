@@ -1,28 +1,14 @@
 //Menu dropdown da navegação
-var navPainel = document.getElementsByClassName("dropdown-painel");
-var dropdown = document.getElementsByClassName("dropdown-a");
-
-for (i = 0; i < dropdown.length; i++){
-    dropdown[i].onmouseover = function() {
-        var drop = this.nextElementSibling;
-        drop.style.display = "block";
-    }
-    dropdown[i].onmouseout = function() {
-        var drop = this.nextElementSibling;
-        drop.style.display = "none";
-    }
-    navPainel[i].onmouseover = function() {
-        this.style.display = "block";
-    }
-    navPainel[i].onmouseout = function() {
-        this.style.display = "none";
-    }
-}
+$('.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(100);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(100);
+});
 
 
-//Botao de fechar o menu lateral
+//Abrir e fechar menu lateral direito
 var close = document.getElementById("close");
-var menuDisplayButton = document.getElementsByClassName("icon-menu")[0];
+var menuDisplayButton = document.getElementById("navbar-toggler");
 
 close.onclick = function() {
     var menu = document.getElementsByClassName("menu")[0];
@@ -32,22 +18,7 @@ close.onclick = function() {
 menuDisplayButton.onclick = function() {
     var menu = document.getElementsByClassName("menu")[0];
     menu.style.display = "block";
-}
-
-//Menu mobile
-let mobileButton = document.getElementsByClassName("hide-menu")[0];
-let mobileButtonClick = 0;
-let menuMobile = document.getElementsByClassName("nav-mobile")[0];
-
-mobileButton.onclick = function() {
-    if (mobileButtonClick == 0) {
-        menuMobile.style.display = "block";
-        mobileButtonClick = 1;
-    }
-    else if (mobileButtonClick == 1){
-        menuMobile.style.display = "none";
-        mobileButtonClick = 0;
-    }
+    console.log(menu);
 }
 
 //Painel central
