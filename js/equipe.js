@@ -21,8 +21,18 @@ for (i = 0; i < voluntario.length; i++) {
     }
     
     voluntario[i].onclick = function() {
-        let menuLeft = this.parentElement.parentElement.parentElement.previousElementSibling.previousElementSibling;
+        let menuLeft = this.parentElement.parentElement.previousElementSibling;
+        let imageClick = this.children[0].children[0].children[0].src;
+        let image = menuLeft.children[1].children[0].children[0];
+        let name = menuLeft.children[1].children[1].children[0];
+        let nameClick = this.children[0].children[1].children[0].innerHTML;
+        let functionName = menuLeft.children[1].children[1].children[1];
+        let functionClick = this.children[0].children[1].children[1].innerHTML;;
         menuLeft.style.display = "block";
+        image.src = imageClick;
+        name.innerHTML = nameClick;
+        functionName.innerHTML = functionClick;
+        console.log(functionName);
     }
 }
 

@@ -1,14 +1,9 @@
 /*GERAL*/
 header.masthead {
     background: url("../img/quem-somos.jpg") no-repeat center center;
-    background-size:100%;
-    background-position:top;
+    background-size:cover;
 }
 
-header.masthead .container{
-    padding-left:200px;
-    padding-right:200px;
-}
 
 /*Menu lateral direito*/
 
@@ -16,6 +11,7 @@ header.masthead .container{
     background:#322B2B;
     color:#FFFFFF;
     position:fixed;
+    top:0;
     left:0;
     padding:2rem;
     width:35%;
@@ -76,8 +72,7 @@ header.masthead .container{
 }
 
 .voluntarios img{
-    width:150px;
-    height:120px;
+    width:100%;
 }
 
 .voluntarios .col-md-4 .col-md-8{
