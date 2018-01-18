@@ -45,13 +45,10 @@ header.masthead {
       header.masthead h1 {
         font-size: 3rem; } }
 
-.showcase .showcase-text {
-  padding: 3rem; }
 
-.showcase .showcase-img {
-  width:100%;
-    height:400px;
-  background-size: cover; }
+.showcase img{
+    width:100%;
+}
 
 .features-icons {
   padding-top: 7rem;
@@ -504,6 +501,7 @@ nav > .btn{
 .parceiros img{
     width:100%;
     transition:0.2s;
+    border:1px solid grey;
 }
 
 .parceiros img:hover{
@@ -563,7 +561,32 @@ nav > .btn{
     color:#2de558;
 }
 
-@media screen and (min-width:760px) {
+@media screen and (max-width:342px) {
+    .painel-button{
+        font-size:0.7rem;
+    }
+}
+
+@media screen and (max-width:435px) {
+    .showcase p{
+        font-size:1.2rem;
+    }
+    
+    .showcase .row{
+        margin:2rem 0;
+    }
+    
+    .painel-center p{
+        font-size:1rem !important;
+        margin:0 !important;
+    }
+    
+    .faca-parte h2{
+        margin:0;
+    }
+}
+
+@media screen and (min-width:804px) {
     nav ul{
         display:flex;
     }
@@ -588,3 +611,82 @@ nav > .btn{
     }
 }
 
+@media screen and (max-width:286px) {
+    nav img{
+        width:190px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .showcase .btn{
+        display:block;
+        margin:2rem auto;
+        width:200px;
+    }
+    
+    .showcase-video iframe{
+        width:100%;
+        height:400px;
+    }
+    
+    body{
+        text-align:Center;
+    }
+    
+    .painel-center .row div{
+        margin: 1rem 0;
+    }
+    
+    .painel-center img{
+        width:100% !important;
+        margin:0 !important;
+    }
+    
+}
+
+@media screen and (max-width:991px) {
+   
+    
+}
+
+@media screen and (max-width:1040px) {
+    footer form input{
+        float:none !important;
+        display:block;
+        text-align:Center;
+        margin:1rem auto;
+    }
+    
+    footer .btn{
+        display:block;
+        margin: 0 auto;
+    }
+    
+    footer form{
+        margin:0 auto;
+    }
+    
+    footer h2{
+        text-align:Center;
+    }
+    
+    
+}
+
+@media screen and (max-width:1200px) {
+    .painel-1 .row{
+        flex-direction: column;
+    }
+    
+    .painel-1 {
+        text-align:center !important;
+    }
+    
+    .painel-1 img{
+        width:100% !important;
+    }
+    
+    .painel-1 .col-md-2,.painel-1 .col-md-3{
+        max-width:100%;
+    }
+}
