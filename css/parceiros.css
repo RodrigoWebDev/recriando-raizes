@@ -12,10 +12,6 @@ header.masthead {
     font-weight:bolder;
 }
 
-.masthead .container{
-    padding:0 200px;
-}
-
 .showcase .text p{
     font-size:1rem;
     font-weight:lighter;
@@ -77,4 +73,11 @@ header.masthead {
 .parceiros h3{
     font-weight:lighter;
     text-align:center;
+}
+
+/*RESPONSIVIDADE*/
+@media screen and (max-width:435px) {
+    .showcase h2{
+        margin-top:2rem;
+    }
 }

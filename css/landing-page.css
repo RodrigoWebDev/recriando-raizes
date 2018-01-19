@@ -567,6 +567,9 @@ nav > .btn{
     }
 }
 
+
+/*RESPONSIVIDADE*/
+
 @media screen and (max-width:435px) {
     .showcase p{
         font-size:1.2rem;
@@ -584,6 +587,7 @@ nav > .btn{
     .faca-parte h2{
         margin:0;
     }
+    
 }
 
 @media screen and (min-width:804px) {
@@ -641,11 +645,6 @@ nav > .btn{
         width:100% !important;
         margin:0 !important;
     }
-    
-}
-
-@media screen and (max-width:991px) {
-   
     
 }
 
