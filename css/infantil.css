@@ -1,0 +1,46 @@
+/*GERAL*/
+header.masthead {
+  background: url("../img/infanitil-banner.jpg");
+}
+
+.showcase-text p{
+    font-size:1rem;
+    font-weight:lighter;
+    text-shadow:none;
+}
+
+/*NOSSO PROGRAMA*/
+
+.nosso-programa img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+}
+
+.nosso-programa .row{
+    padding:1rem 0;
+}
+
+.nosso-programa h3, .nosso-programa h2{
+    text-transform:uppercase;
+}
+
+.nosso-programa h2{
+    text-align:center;
+    font-weight:lighter;
+    padding-bottom:1rem;
+}
+
+.nosso-programa h3{
+    font-size:1rem;
+}
+
+.nosso-programa span{
+    font-weight:bolder;
+}
+
+hr{
+    margin:0 10%;
+}
+
+/*SLIDER*/
