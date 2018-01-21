@@ -43,4 +43,29 @@ hr{
     margin:0 10%;
 }
 
-/*SLIDER*/
+@media screen and (max-width:767px) {
+    .showcase-text h2{
+        margin:2rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .nosso-programa img{
+        width:120px;
+        height:120px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .nosso-programa img{
+        width:150px;
+        height:150px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+        .nosso-programa img{
+        width:180px;
+        height:180px;
+    }
+}
