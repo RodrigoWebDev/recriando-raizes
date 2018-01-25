@@ -29,13 +29,6 @@ header.masthead {
     width:100%;
 }
 
-.menu-right h3, .voluntarios h3{
-    font-size:1rem;
-    color:#2de558;
-    font-weight:lighter;
-    text-transform: uppercase;
-}
-
 .menu-right h2, .voluntarios h2{
     text-transform: uppercase;
     font-size:1.5rem;
@@ -53,7 +46,7 @@ header.masthead {
 }
 
 .menu-right .fa:hover{
-    color:#2de558;
+    color:#2ecc71;
 }
 
 .menu-right div:first-child{
@@ -62,10 +55,6 @@ header.masthead {
 }
 
 /*Voluntarios*/
-
-.voluntarios{
-    padding:1rem 3rem;
-}
 
 .voluntarios .row{
     margin:0.5rem 0;
@@ -105,7 +94,7 @@ header.masthead {
 }
 
 .tabs .active{
-    background-color:#2de558;
+    background-color:#2ecc71;
 }
 
 .tab{

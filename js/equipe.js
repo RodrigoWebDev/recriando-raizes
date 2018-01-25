@@ -8,7 +8,7 @@ for (i = 0; i < voluntario.length; i++) {
     voluntario[i].onmouseover = function() {
         var divRight = this.children[0].children[1];
         var h3 = divRight.children[0];
-        divRight.style.background = "#2de558";
+        divRight.style.background = "#2ecc71";
         divRight.style.color = "white";
         h3.style.color = "white";
     }

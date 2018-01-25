@@ -1,5 +1,6 @@
 /*Cores
-verde principal:#2de558 
+verde principal: #2ecc71
+verde secundario: #27ae60
 verde texto: #716b70
 */
 body {
@@ -21,7 +22,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/imagem1.jpg") no-repeat center center;
+  background: url("../img/imagem1-edit.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -54,6 +55,18 @@ header.masthead {
     height:300px;
 }
 
+.showcase .row{
+    margin:4rem 0 !important;
+}
+
+.showcase .adjust{
+    text-shadow:none;
+}
+
+.showcase-text p{
+    text-shadow:none !important;
+}
+
 .features-icons {
   padding-top: 7rem;
   padding-bottom: 7rem; }
@@ -80,7 +93,7 @@ footer.footer {
   padding-bottom: 4rem; }
 
 .btn{
-    background:#2de558;
+    background:#2ecc71;
     border:#44a244;
     transition:0.3s;
     text-transform: uppercase;
@@ -88,7 +101,7 @@ footer.footer {
 }
 
 .btn:hover{
-    background:#2de558;
+    background:#27ae60;
     color:#358435;
     cursor:pointer;
 }
@@ -98,7 +111,7 @@ footer.footer {
 }
 
 .fa{
-    color:#2de558;
+    color:#27ae60;
 }
 
 .mb-5{
@@ -148,14 +161,17 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color:#2de558;
+    color:#27ae60;
 }
 
 nav .dropdown-item:hover{
     color:white;
-    background:#2de558;
+    background:#27ae60;
 }
 
+nav .dropdown-item{
+    text-align:center;
+}
 .navbar-nav{
     text-align:center;
     margin-top:1rem;
@@ -185,7 +201,7 @@ nav > .btn{
 }
 
 .masthead h1, .masthead h3{
-    text-shadow: 1px 1px 10px black;
+    text-shadow: 2px 1px 1px black;
     word-spacing:5px;
 }
 
@@ -198,7 +214,7 @@ nav > .btn{
 /* Painel central */
 
 .painel-center{
-    background-color:#2de558;
+    background-color:#2ecc71;
     padding:2.5rem 0;
     color:white;
 }
@@ -212,6 +228,10 @@ nav > .btn{
     margin:1.5rem 0;
     display:none;
     margin:0 auto
+}
+
+.painel-inner .text p{
+    font-size:1.2rem !important;
 }
 
 .painel-inner .row{
@@ -303,7 +323,7 @@ nav > .btn{
 }
 
 .painel-button-active{
-    background:#2de558 !important;
+    background:#2ecc71 !important;
     transition:0.2s;
 }
 
@@ -327,7 +347,7 @@ nav > .btn{
 }
 
 .painel-buttons div:hover{
-    background:#2de558;
+    background:#2ecc71;
     color:#358435;
     cursor:pointer;
 }
@@ -562,7 +582,7 @@ nav > .btn{
 }
 
 .footer a:hover,.footer .fa:hover{
-    color:#2de558;
+    color:#27ae60;
 }
 
 @media screen and (max-width:342px) {

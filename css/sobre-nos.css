@@ -13,7 +13,7 @@ header.masthead {
 }
 
 .showcase-image img{
-    width:80%;
+    width:100%;
     display:block;
     margin:0 auto;
 }
@@ -60,9 +60,9 @@ header.masthead {
 }
 
 .historia{
-    background-color:#F4F4F4;
-    padding:4rem 0;
-    border:5px dashed #EFEFEF;
+    background-color:#ecf0f1;
+    box-shadow: 4px 1px 5px #34495e;
+    padding:1rem;
 }
 
 section{
