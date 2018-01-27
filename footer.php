@@ -7,10 +7,10 @@
                     <form action="#" method="post">
                         <div>
                             <div>
-                                <input type="name" placeholder="Nome...">    
-                                <input type="name" placeholder="Sobrenome...">
-                                <input type="email" placeholder="Email...">
-                                <button type="submit" class="btn btn-lg btn-primary"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                                <input type="name" placeholder="Nome..." name="nome">    
+                                <input type="name" placeholder="Sobrenome..." name="sobrenome">
+                                <input type="email" placeholder="Email..." name="email">
+                                <input type="submit" class="btn btn-lg btn-primary" value="Enviar">
                             </div>
                         </div>
                     </form>
