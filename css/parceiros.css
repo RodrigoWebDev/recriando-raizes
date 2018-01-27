@@ -55,12 +55,25 @@ header.masthead {
 }
 
 .parceiro p{
+    font-size:1.2rem;
     font-weight:lighter;
     line-height:30px;
 }
 
 .parceiro img{
     width:100%;
+}
+
+.parceiro .btn{
+    background-color:white;
+    color:#716b70;
+    display:block;
+    margin:0 auto;
+    width:200px;
+}
+
+.parceiro .btn:hover{
+    background:#bdc3c7;
 }
 
 /*PARCEIROS*/

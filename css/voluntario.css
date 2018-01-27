@@ -1,7 +1,7 @@
 /* GERAL */
 header.masthead {
     background: url("../img/voluntario-banner.jpg") no-repeat center center;
-    background-size:100%;
+    background-size:cover;
 }
 
 .masthead .container h3{

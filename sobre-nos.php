@@ -56,7 +56,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img title="Ilma Rochha, fundadora do Recriando raízes" src="img/fundadora.png" alt="Fundadora do recriando raízes Ilma Rocha">
+                    <img title="Ilma Rochha, fundadora do Recriando raízes" src="img/fundadora.jpg" alt="Fundadora do recriando raízes Ilma Rocha">
                 </div>
                 <div class="col-md-6">
                     <h2>Nossa fundadora</h2>

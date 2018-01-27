@@ -38,10 +38,6 @@
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="corporativo.php">Corporativo</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
                 <a href="doar.php">Doações</a>
               </li>
             </ul>

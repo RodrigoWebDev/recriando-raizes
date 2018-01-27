@@ -100,6 +100,7 @@ e longo prazo, erradicando os problemas da pobreza nas comunidades cariocas</p>
                     <img src="img/parceiro.jpeg" alt="">
                 </div>
             </div>
+            <a class="btn btn-primary" href="doe.php">Doe</a>
         </div>
     </section>
       

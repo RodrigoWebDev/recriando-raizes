@@ -682,6 +682,10 @@ nav .container > .btn{
         text-align:Center;
     }
     
+    .parceiro .row h3{
+        text-align:center !important;
+    }
+    
     .painel-center .row div{
         margin: 1rem 0;
     }

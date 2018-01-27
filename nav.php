@@ -91,7 +91,7 @@
             <li><a href="voluntario.php">Envolva-se</a></li>
             <li><a href="parceiros.php">Seja um parceiro</a></li>
             <li><a href="corporativo.php">Trabalhe conosco</a></li>
-            <li><a href="#">Assine nosso Newsletter</a></li>
+            <li>Assine nosso Newsletter</li>
             <div class="newsletter">
                 <form action="#" method="post">
                     <input type="text" placeholder="Nome">

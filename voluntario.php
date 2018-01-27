@@ -39,7 +39,7 @@
                 </div>
                 <div class="col-md-4">
                     <i class="fa fa-calendar" aria-hidden="true"></i>
-                    <h2>Nossas eventos</h2>
+                    <h2>Nossos eventos</h2>
                     <p>Confira aqui os eventos especiais e junte-se a nós nessas datas importantes</p>
                     <a class="btn btn-primary" href="#">Clique aqui</a>
                 </div>
