@@ -45,7 +45,7 @@
                 <a href="doar.php">Doações</a>
               </li>
             </ul>
-            <p class="text-muted small mb-4 mb-lg-0">&copy; Todos os Direitos Reservados</p>
+            <p class="text-muted small mb-4 mb-lg-0">&copy; Recriando raízes Todos os Direitos Reservados | Site desenvolvido por <a href="https://rodrigowebdev.github.io/devninja.github.io/" target="_blank" style="text-transform:uppercase">Dev ninja</a></p>
           </div>
           <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
             <ul class="list-inline mb-0">
