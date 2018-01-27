@@ -14,7 +14,7 @@ header.masthead {
     top:0;
     left:0;
     padding:2rem;
-    width:35%;
+    width:550px;
     height:100vh;
     z-index:1;
     display:none;
@@ -27,6 +27,7 @@ header.masthead {
 
 .menu-right img{
     width:100%;
+    height:100%;
 }
 
 .menu-right h2, .voluntarios h2{

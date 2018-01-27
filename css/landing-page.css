@@ -631,6 +631,12 @@ nav .container > .btn{
     
 }
 
+@media screen and (max-width:550px) {
+    .menu-right{
+        width:80% !important;
+    }
+}
+
 @media screen and (min-width:992px) {
     nav ul{
         display:flex;
