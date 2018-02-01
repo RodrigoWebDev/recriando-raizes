@@ -1,0 +1,50 @@
+.logo {
+  margin: 1.6rem auto;
+  text-align: center;
+}
+.demo-picked {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.demo-picked span {
+    font-weight: bold;
+}
+
+h1{
+    margin-top:130px;
+    text-align:Center;
+}
+nav{
+    top:0;
+}
+
+#v-cal{
+    margin:2rem 0;
+}
+
+hr{
+    background:white;
+}
+
+#v-cal .vcal-header svg{
+    fill:#358435 !important;
+}
+
+.eventos{
+    border:1px solid silver;
+    margin:1rem 0;
+}
+
+.eventos h2{
+    padding:2rem;
+}
+
+.eventos-header{
+    background:#2ecc71;
+    color:#ecf0f1;
+}
+
+.eventos-content{
+    padding:2rem;
+}

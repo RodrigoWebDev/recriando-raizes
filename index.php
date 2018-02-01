@@ -31,7 +31,7 @@
         </div>
         
         <div class="row">
-          <div class="col-md-6 showcase-video"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/T3zwvjxBhpk" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
+          <div class="col-md-6 showcase-video"><iframe src="https://player.vimeo.com/video/226087751" width="640" height="1164" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
           <div class="col-md-6 showcase-text">
             <p class="lead mb-0"><span>Erradicando a pobreza</span> através do investimento em crianças e família</p>
           </div>
