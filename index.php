@@ -26,7 +26,7 @@
             <a class="btn btn-primary" href="sobre-nos.php">Nossa história</a>
           </div>
           <div class="col-md-6 showcase-img">
-            <img src="img/quem-somos.jpg" alt="">
+            <img src="img/index/index1.jpeg" alt="">
             </div>
         </div>
         
@@ -60,10 +60,10 @@
                 <div class="col-md-2">
                     <h3>Mostramos que a mudança é possível</h3>
                     <span>Mas ainda há muito trabalho pela frente</span> 
-                    <p>O Recriando Raízes ao longo de mais de 10 anos de trabalho tem mostrado um caminho na contra mão do trafico de drogas para jovens e adolescentes, o que tem gerado mudança relevante nas comunidades atendidas</p>
+                    <p>O Recriando Raízes ao longo de 10 anos tem mostrado um caminho na contra mão da violência para jovens e adolescentes, gerando mudança relevante</p>
                 </div>
                 <div class="col-md-3">
-                    <img src="img/painel1-1.jpg" alt="crianças do Recriando raízes">
+                    <img src="img/index/painel1-1.jpg" alt="crianças do Recriando raízes">
                 </div>
                 <div class="col-md-2">
                     <h2>180</h2>
@@ -71,7 +71,7 @@
                     <span>jovens e adolescentes assistidos </span>
                 </div>
                 <div class="col-md-3">
-                    <img src="img/painel1-2.jpg" alt="Jovens do recriando raízes">
+                    <img src="img/index/painel1-2.jpg" alt="Jovens do recriando raízes">
                 </div>
                 <div class="col-md-2">
                     <h2>+70</h2>
@@ -82,7 +82,7 @@
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <img src="img/painel1-3.jpg" alt="crianças do Recriando raízes">
+                    <img src="img/index/painel1-3.jpg" alt="crianças do Recriando raízes">
                 </div>
                 <div class="col-md-3">
                     <h2>0%</h2>
@@ -90,7 +90,7 @@
                     <span>escolar das nossas crianças</span>
                 </div>
                 <div class="col-md-3">
-                    <img src="img/painel1-4.jpg" alt="Jovens do Recriando raízes">
+                    <img src="img/index/painel1-4.jpg" alt="Jovens do Recriando raízes">
                 </div>
                 <div class="col-md-3">
                     <h2>40%</h2>

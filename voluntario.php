@@ -35,7 +35,7 @@
                     <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
                     <h2>Nossas soluções</h2>
                     <p>Conheça as ações que estão fazendo toda a diferença.</p>
-                    <a class="btn btn-primary" href="#">Clique aqui</a>
+                    <a class="btn btn-primary" href="http://localhost/recriando-raizes/infantil.php">Clique aqui</a>
                 </div>
                 <div class="col-md-4">
                     <i class="fa fa-calendar" aria-hidden="true"></i>
