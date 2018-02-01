@@ -63,6 +63,7 @@ header.masthead {
 
 .voluntarios img{
     width:100%;
+    height:100%;
 }
 
 .voluntarios .col-md-4 .col-md-8{
@@ -77,6 +78,11 @@ header.masthead {
 .voluntarios .voluntario:hover{
     cursor:pointer;
 }
+
+.voluntarios .diretor:hover{
+    cursor:pointer;
+}
+
 
 /*TABS*/
 

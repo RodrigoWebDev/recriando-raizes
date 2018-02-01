@@ -22,14 +22,11 @@
       
     <!--TABS -->
     <div class="tabs row">
-        <div class="tab col-md-4 active">
+        <div class="tab col-md-6 active">
             <p>Equipe</p>
         </div>
-        <div class="tab col-md-4">
+        <div class="tab col-md-6">
             <p>Diretoria</p>
-        </div>
-        <div class="tab col-md-4">
-            <p>Conselheiros</p>
         </div>
     </div>
       
@@ -142,6 +139,17 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-4 voluntario">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/voluntarios/rodrigo.jpg" alt="Rodrigo Queiroz Desenvolvedor Web">
+                        </div>
+                        <div class="col-md-8">
+                            <h2>Rodrigo Queiroz</h2>
+                            <h4>Desenvolvedor Web</h4>
+                        </div>
+                    </div>
+                </div>
                 
                 
             </div>
@@ -149,257 +157,43 @@
       
     <!--DIRETORIA-->
     <section class="voluntarios container">
-        <div>
             <div class="row">
-                <div class="col-md-4 voluntario">
+                <div class="col-md-4 diretor">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="img/user.jpg" alt="">
+                            <img src="img/diretoria/ilma.jpg" alt="Ilma Rocha presidente CEO e fundadora do Recriando raízes">
                         </div>
                         <div class="col-md-8">
-                            <h3>Estado/pais</h3>
-                            <h2>Diretoria</h2>
-                            <h4>Função</h4>
+                            <h2>Ilma Rocha</h2>
+                            <h4>Presidente</h4>
                         </div>
                     </div>
                 </div>
                 
-                <div class="col-md-4 voluntario">
+                <div class="col-md-4 diretor">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="img/user.jpg" alt="">
+                            <img src="img/diretoria/richard.jpg" alt="Richard Silva cordenador executivo do Recriando raízes">
                         </div>
                         <div class="col-md-8">
-                            <h3>Estado/pais</h3>
-                            <h2>Nome</h2>
-                            <h4>Função</h4>
+                            <h2>Richard Silva</h2>
+                            <h4>Cordenador Excecutivo</h4>
                         </div>
                     </div>
                 </div>
                 
-                <div class="col-md-4 voluntario">
+                <div class="col-md-4 diretor">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="img/user.jpg" alt="">
+                            <img src="img/diretoria/alba.jpg" alt="Alba Silva vice presidente do Recriando raízes">
                         </div>
                         <div class="col-md-8">
-                            <h3>Estado/pais</h3>
-                            <h2>Nome</h2>
-                            <h4>Função</h4>
+                            <h2>Alba Silva</h2>
+                            <h4>Vice Presidente</h4>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <div class="row">
-                <div class="col-md-4 voluntario">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="img/user.jpg" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h3>Estado/pais</h3>
-                            <h2>Nome</h2>
-                            <h4>Função</h4>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 voluntario">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="img/user.jpg" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h3>Estado/pais</h3>
-                            <h2>Nome</h2>
-                            <h4>Função</h4>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 voluntario">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="img/user.jpg" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h3>Estado/pais</h3>
-                            <h2>Nome</h2>
-                            <h4>Função</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-4 voluntario">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="img/user.jpg" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h3>Estado/pais</h3>
-                            <h2>Nome</h2>
-                            <h4>Função</h4>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 voluntario">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="img/user.jpg" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h3>Estado/pais</h3>
-                            <h2>Nome</h2>
-                            <h4>Função</h4>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 voluntario">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="img/user.jpg" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h3>Estado/pais</h3>
-                            <h2>Nome</h2>
-                            <h4>Função</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-      
-    <!--CONSELHEIROS-->
-    <section class="voluntarios container">
-        <div>
-            <div class="row">
-                <div class="col-md-4 voluntario">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h2>Conselheiros</h2>
-                            <h4>Função</h4>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 voluntario">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="img/user.jpg" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h3>Estado/pais</h3>
-                            <h2>Nome</h2>
-                            <h4>Função</h4>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 voluntario">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="img/user.jpg" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h3>Estado/pais</h3>
-                            <h2>Nome</h2>
-                            <h4>Função</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-4 voluntario">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="img/user.jpg" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h3>Estado/pais</h3>
-                            <h2>Nome</h2>
-                            <h4>Função</h4>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 voluntario">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="img/user.jpg" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h3>Estado/pais</h3>
-                            <h2>Nome</h2>
-                            <h4>Função</h4>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 voluntario">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="img/user.jpg" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h3>Estado/pais</h3>
-                            <h2>Nome</h2>
-                            <h4>Função</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-4 voluntario">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="img/user.jpg" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h3>Estado/pais</h3>
-                            <h2>Nome</h2>
-                            <h4>Função</h4>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 voluntario">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="img/user.jpg" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h3>Estado/pais</h3>
-                            <h2>Nome</h2>
-                            <h4>Função</h4>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 voluntario">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="img/user.jpg" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h3>Estado/pais</h3>
-                            <h2>Nome</h2>
-                            <h4>Função</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
 
     <?php include "footer.php";?>
