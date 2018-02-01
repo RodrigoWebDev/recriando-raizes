@@ -30,11 +30,11 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="voluntario.php">Voluntário</a>
-              <a class="dropdown-item" href="doe.php">Doe</a>
+              <a class="dropdown-item" href="https://www.doare.org/br/doacao/3242/projeto-recriando-raizes" target="_blank">Doe</a>
             </div>
           </li>
         </ul>
-        <a class="btn btn-primary" href="doe.php">Doe</a>
+        <a class="btn btn-primary" href="https://www.doare.org/br/doacao/3242/projeto-recriando-raizes" target="_blank">Doe</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -47,7 +47,7 @@
         <ul class="navbar-nav">
 
           <li class="nav-item">
-            <a class="btn btn-primary" href="doe.php">Doe</a>
+            <a class="btn btn-primary" href="https://www.doare.org/br/doacao/3242/projeto-recriando-raizes" target="_blank">Doe</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -76,7 +76,7 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="voluntario.php">Voluntário</a>
-              <a class="dropdown-item" href="doe.php">Doe</a>
+              <a class="dropdown-item" href="https://www.doare.org/br/doacao/3242/projeto-recriando-raizes" target="_blank">Doe</a>
             </div>
           </li>
         </ul>

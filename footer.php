@@ -38,7 +38,7 @@
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="doar.php">Doações</a>
+                <a href="https://www.doare.org/br/doacao/3242/projeto-recriando-raizes" target="_blank">Doações</a>
               </li>
             </ul>
             <p class="text-muted small mb-4 mb-lg-0">&copy; Recriando raízes Todos os Direitos Reservados | Site desenvolvido por <a href="https://rodrigowebdev.github.io/devninja.github.io/" target="_blank" style="text-transform:uppercase">Dev ninja</a></p>

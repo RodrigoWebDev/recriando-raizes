@@ -16,7 +16,7 @@
       <div class="container">
             <h1>Nossos parceiros</h1>
             <h3>sabem que o Rio precisa de muito trabalho para erradicarmos os problemas da pobreza</h3>
-            <a class="btn btn-primary" href="junte-se.html">Junte-se a nós</a>
+            <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdKYRyX1RgKmWzINZl_F59dpOntSNAevRrrLGt83ZfIJsLvFA/viewform" target="_blank">Junte-se a nós</a>
           </div>
     </header>
 
@@ -100,7 +100,7 @@ e longo prazo, erradicando os problemas da pobreza nas comunidades cariocas</p>
                     <img src="img/parceiro.jpeg" alt="">
                 </div>
             </div>
-            <a class="btn btn-primary" href="doe.php">Doe</a>
+            <a class="btn btn-primary" href="https://www.doare.org/br/doacao/3242/projeto-recriando-raizes" target="_blank">Doe</a>
         </div>
     </section>
       

@@ -150,7 +150,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <img src="img/doe.jpg" alt="Crianças comendo Recriando raízes">
-                    <a class="btn btn-primary" href="doar.php">Doar</a>
+                    <a class="btn btn-primary" href="https://www.doare.org/br/doacao/3242/projeto-recriando-raizes" target="_blank">Doar</a>
                     <p>A sua doação faz toda a diferença no dia a dia de centenas de crianças, adolescentes e jovens que moram no segundo pior lugar do Rio de Janeiro</p>
                 </div>
                 <div class="col-md-4">

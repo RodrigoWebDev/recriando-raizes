@@ -41,7 +41,7 @@
                     <i class="fa fa-calendar" aria-hidden="true"></i>
                     <h2>Nossos eventos</h2>
                     <p>Confira aqui os eventos especiais e junte-se a nós nessas datas importantes</p>
-                    <a class="btn btn-primary" href="#">Clique aqui</a>
+                    <a class="btn btn-primary" href="eventos.php">Clique aqui</a>
                 </div>
             </div>
         </div>
