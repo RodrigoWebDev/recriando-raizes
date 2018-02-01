@@ -104,7 +104,7 @@
         <div class="animated container fadeIn painel-inner">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="img/integrar.jpg" alt="Recriando raízes integração social">
+                    <img src="img/index/nossa-missao.jpg" alt="Recriando raízes integração social">
                 </div>
                 <div class="col-md-6 text">
                     <p><strong>Interagir</strong> e <strong>integrar</strong> crianças, jovens e adultos com a sociedade dentro e fora do seu contexto social, municiando-os,  com ferramentas para a superação da vulnerabilidade, contribuindo para o <strong>desenvolvimento</strong>, <strong>redução das desigualdades</strong> e a <strong>igualdade de gênero</strong> a médio e longo prazo.</p>
@@ -119,23 +119,23 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <div class="overlayer">Familia</div>
-                        <img class="img-overlay" src="img/familia.jpg" alt="criança Recriando raízes">
+                        <img class="img-overlay" src="img/index/familia.jpg" alt="criança Recriando raízes">
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <div class="overlayer">Responsabilidade</div>
-                        <img class="img-overlay" src="img/responsabilidade.jpg" alt="crianças Recriando raízes">
+                        <img class="img-overlay" src="img/index/responsabilidade.jpg" alt="crianças Recriando raízes">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <div class="overlayer">Ética</div>
-                        <img class="img-overlay" src="img/etica.jpg" alt="crianças Recriando raízes">
+                        <img class="img-overlay" src="img/index/etica.jpg" alt="crianças Recriando raízes">
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <div class="overlayer">Resgate</div>
-                        <img class="animated wooble img-overlay" src="img/resgate.jpg" alt="crianças almoçando Recriando raízes">
+                        <img class="animated wooble img-overlay" src="img/index/resgate.jpg" alt="crianças almoçando Recriando raízes">
                     </div>
                 </div>
             </div>
@@ -149,17 +149,17 @@
             <hr>
             <div class="row">
                 <div class="col-md-4">
-                    <img src="img/doe.jpg" alt="Crianças comendo Recriando raízes">
+                    <img src="img/index/doe.jpg" alt="Crianças comendo Recriando raízes">
                     <a class="btn btn-primary" href="https://www.doare.org/br/doacao/3242/projeto-recriando-raizes" target="_blank">Doar</a>
                     <p>A sua doação faz toda a diferença no dia a dia de centenas de crianças, adolescentes e jovens que moram no segundo pior lugar do Rio de Janeiro</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/voluntario.jpg" alt="Voluntario Recriando raízes">
+                    <img src="img/index/voluntario.jpg" alt="Voluntario Recriando raízes">
                     <a class="btn btn-primary" href="voluntario.php">Voluntário</a>
                     <p>Ao clicar o usuario sera levado para uma pagina de voluntariado. Onde contaremos as experiências de alguns voluntários com fotos, e terá um formulário para se candidatar </p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/parceiro.jpg" alt="Recriando raízes">
+                    <img src="img/index/parceiro.jpg" alt="Parceiro Recriando raízes">
                     <a class="btn btn-primary" href="parceiros.php">Parceiro</a>
                     <p>Venha somar forças com a gente para mudarmos a realidade e o futuro. Aqui sua empresa, instituição pode fazer a diferença com serviços, know-how, campanhas...</p>
                 </div>
@@ -174,6 +174,7 @@
 
     <?php include "scripts.php"; ?>
     <script src="js/index.js"></script>
+    <script src="js/parceiros.js"></script>
   </body>
 
 </html>
