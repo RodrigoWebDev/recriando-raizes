@@ -95,10 +95,11 @@
             <li><a href="corporativo.php">Trabalhe conosco</a></li>
             <li>Assine nosso Newsletter</li>
             <div class="newsletter">
-                <form action="#" method="post">
-                    <input type="text" placeholder="Nome">
-                    <input type="text" placeholder="Sobrenome">
-                    <input type="email" placeholder="Email">
+                <form action="http://www.zonadecodigo.com/fred-form.php" method="post">
+                    <input type="hidden" name="meu-email" value="rodrigo.queiroz.chagas@gmail.com">
+                    <input type="text" placeholder="Nome" name="nome">
+                    <input type="text" placeholder="Sobrenome" name="mensagem">
+                    <input type="email" placeholder="Email" name="email">
                     <input type="submit" class="btn btn-primary" value="Enviar">
                 </form>
             </div>

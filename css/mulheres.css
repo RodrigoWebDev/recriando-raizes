@@ -1,7 +1,7 @@
 /*GERAL*/
 header.masthead {
-  background: url("../img/mulheres.jpg");
-    background-size:cover;
+  background: url("../img/mulheres/mulheres-banner.jpg");
+  background-size:cover;
 }
 
 .lead{

@@ -91,19 +91,27 @@
         </section>
       
       <!--SLIDER-->
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <img class="d-block img-fluid" src="img/capacitacao.jpg" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid" src="img/etica.jpg" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid" src="img/familia.jpg" alt="Third slide">
-    </div>
-  </div>
-</div>
+      <div class="container">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="d-block img-fluid" src="img/jovens/slide1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="img/jovens/slide2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="img/jovens/slide3.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="img/jovens/slide4.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="img/jovens/slide5.jpg" alt="Third slide">
+            </div>
+          </div>
+          </div>
+        </div>
       
     <?php include "footer.php"; ?>
       

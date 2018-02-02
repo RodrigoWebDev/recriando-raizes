@@ -1,7 +1,8 @@
 /*GERAL*/
 header.masthead {
-    background: url("../img/quem-somos.jpg") no-repeat center center;
+    background: url("../img/equipe/equipe-banner.jpg") no-repeat center center;
     background-size:cover;
+    background-position:top left;
 }
 
 

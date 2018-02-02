@@ -18,7 +18,7 @@
       <div class="container">
             <h1 class="mb-5">Faça parte</h1> 
             <h3>Você pode fazer a diferença na vida de centenas de crianças e jovens. Venha se juntar ao nosso time!</h3>
-            <a class="btn btn-primary" href="junte-se.html">Junte-se a nós</a>
+            <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdKYRyX1RgKmWzINZl_F59dpOntSNAevRrrLGt83ZfIJsLvFA/viewform" target="_blank">Junte-se a nós</a>
           </div>
     </header>
 

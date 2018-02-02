@@ -97,7 +97,7 @@ e longo prazo, erradicando os problemas da pobreza nas comunidades cariocas</p>
     diferença na vida de centenas de pessoas.</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="img/parceiro.jpeg" alt="">
+                    <img src="img/parceiros/parceiro1.jpg" alt="Parceiros recriando rapizes">
                 </div>
             </div>
             <a class="btn btn-primary" href="https://www.doare.org/br/doacao/3242/projeto-recriando-raizes" target="_blank">Doe</a>
@@ -106,8 +106,8 @@ e longo prazo, erradicando os problemas da pobreza nas comunidades cariocas</p>
       
     <?php include "div-parceiros.php"; ?>
     <?php include "footer.php"; ?>
-
     <?php include "scripts.php"; ?>
+    <script src="js/parceiros.js"></script>
   </body>
 
 </html>

@@ -2,7 +2,7 @@
       <div class="container">
         <h2>Parceiros</h2>
         <hr>
-        <div class="row parceiros1">
+        <div class="row parceiros1 animated bounceIn">
           <div class="col-md-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <a href="http://www.appai.org.br/" target="_blank"><img class="img-fluid mb-3" src="img/parceiros/appai.jpeg" alt="Agencia do bem"></a>
@@ -20,7 +20,7 @@
           </div>
         </div>
           
-        <div class="row parceiros2">
+        <div class="row parceiros2 animated bounceIn">
           <div class="col-md-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                <a href="http://www.piraque.com.br/" target="_blank"><img class="img-fluid mb-3" src="img/parceiros/piraque.jpg" alt="Piraquê"></a>
@@ -38,7 +38,7 @@
           </div>
         </div>
           
-        <div class="row parceiros3">
+        <div class="row parceiros3 animated bounceIn">
           <div class="col-md-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                <a href="http://www.belacap.com.br/" target="_blank"><img class="img-fluid mb-3" src="img/parceiros/belacap.jpeg" alt="Belacap"></a>
@@ -56,7 +56,7 @@
           </div>
         </div>
           
-        <div class="row parceiros4">
+        <div class="row parceiros4 animated bounceIn">
           <div class="col-md-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                <a href="http://recode.org.br/" target="_blank"><img class="img-fluid mb-3" src="img/parceiros/recode.jpeg" alt="Recode"></a>

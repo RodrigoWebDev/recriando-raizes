@@ -1,6 +1,7 @@
 /*GERAL*/
 header.masthead {
-  background: url("../img/jovens-banner.jpg");
+  background: url("../img/jovens/jovens-banner.jpg");
+  background-size:cover;
 }
 
 .nosso-programa img{

@@ -1,7 +1,8 @@
 /* GERAL */
 header.masthead {
-    background: url("../img/parceiros.jpg") no-repeat center center;
-
+    background: url("../img/parceiros/parceiros-banner.jpg") no-repeat;
+    background-size:cover;
+    background-position:top right;
 }
 
 .masthead h3{

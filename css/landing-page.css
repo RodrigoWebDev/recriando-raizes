@@ -590,7 +590,9 @@ nav .container > .btn{
     align-items:center;
 }
 
-
+.carousel{
+    margin:2rem 0;
+}
 /*FOOTER*/
 
 .footer{

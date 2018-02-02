@@ -145,7 +145,7 @@
                             <img src="img/voluntarios/rodrigo.jpg" alt="Rodrigo Queiroz Desenvolvedor Web">
                         </div>
                         <div class="col-md-8">
-                            <h2>Rodrigo Queiroz</h2>
+                            <h2>Rodrigo</h2>
                             <h4>Desenvolvedor Web</h4>
                         </div>
                     </div>
