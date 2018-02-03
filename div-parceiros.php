@@ -76,7 +76,7 @@
             <div class="dot"></div>
         </div>
         <div>
-            <a class="btn btn-lg btn-primary" href="parceiros.php">Faça parte!</a>
+            <a class="btn btn-lg btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdKYRyX1RgKmWzINZl_F59dpOntSNAevRrrLGt83ZfIJsLvFA/viewform" target="_blank">Faça parte!</a>
         </div>
       </div>
           

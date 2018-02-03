@@ -14,7 +14,7 @@
     <header class="masthead text-white text-center">
       <div class="container">
             <h1 class="mb-5">Informações e ações</h1>
-            <h3>para empoderar mulheres buscando a quidade de gênero</h3>
+            <h3>para empoderar mulheres buscando a equidade de gênero</h3>
           </div>
     </header>
 

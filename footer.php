@@ -4,13 +4,11 @@
             <div class="container">
                 <h2>Receba tudo o que fazemos no seu email</h2>
                 <div class="row">
-                    <form action="http://www.zonadecodigo.com/fred_form.php" method="post">
-                        <input type="hidden" value="rodrigo.queiroz.chagas@gmail.com" name="meu-email"> 
+                    <form action="envia-form.php" method="post">
                         <input type="name" placeholder="Nome..." name="nome">    
-                        <input type="name" placeholder="Sobrenome..." name="mensagem">
+                        <input type="name" placeholder="Sobrenome..." name="sobrenome">
                         <input type="email" placeholder="Email..." name="email">
-                        <input type="submit" class="btn btn-lg btn-primary" value="Enviar">
-                            
+                        <input type="submit" class="btn btn-lg btn-primary" value="Enviar"> 
                     </form>
                 </div>
             </div>

@@ -104,7 +104,7 @@ footer.footer {
 
 .btn:hover{
     background:#27ae60;
-    color:#358435;
+    color:black;
     cursor:pointer;
 }
 
@@ -185,11 +185,21 @@ nav .dropdown-item{
 
 .navbar-nav a:hover{
     color:white !important;
-    background-color:#2de558;
+    background-color:#2ecc71;
 }
 
 .navbar-nav .dropdown-menu{
     text-align:center;
+}
+
+.navbar-nav .btn{
+    background-color:#2ecc71;
+    color:white !important;
+}
+
+.navbar-nav .btn:hover{
+    background-color:#27ae60;
+    color:black !important;
 }
 
 nav .container > .btn{
