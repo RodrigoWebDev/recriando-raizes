@@ -18,5 +18,4 @@ close.onclick = function() {
 menuDisplayButton.onclick = function() {
     var menu = document.getElementsByClassName("menu")[0];
     menu.style.display = "block";
-    console.log(menu);
 }

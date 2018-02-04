@@ -35,13 +35,25 @@
           </li>
         </ul>
         <a class="btn btn-primary" href="https://www.doare.org/br/doacao/3242/projeto-recriando-raizes" target="_blank">Doe</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="nav-buttons">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <!--API Google tradutor-->
+        <div id="google_translate_element"></div><script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'pt', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+        }
+        </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            
+        <button id="navbar-toggler" class="navbar-toggler navbar-toggler-right" type="button">
         <span class="navbar-toggler-icon"></span>
       </button>
+        </div>
 
-      <button id="navbar-toggler" class="navbar-toggler navbar-toggler-right" type="button">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      
+            
+        
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
