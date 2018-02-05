@@ -1,68 +1,70 @@
 /*GERAL*/
+
 header.masthead {
-  background: url("../img/infantil/infanitil-banner.jpg");
+    background: url("../img/infantil/infanitil-banner.jpg");
 }
 
-.showcase-text p{
-    font-size:1rem;
-    font-weight:lighter;
-    text-shadow:none;
+.showcase-text p {
+    font-size: 1rem;
+    font-weight: lighter;
+    text-shadow: none;
 }
 
 /*NOSSO PROGRAMA*/
 
-.nosso-programa img{
-    width:180px;
-    height:180px;
-    border-radius:50%;
+.nosso-programa img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
 }
 
-.nosso-programa .row{
-    padding:1rem 0;
+.nosso-programa .row {
+    padding: 1rem 0;
 }
 
-.nosso-programa h3, .nosso-programa h2{
-    text-transform:uppercase;
+.nosso-programa h3,
+.nosso-programa h2 {
+    text-transform: uppercase;
 }
 
-.nosso-programa h2{
-    text-align:center;
-    font-weight:lighter;
-    padding-bottom:1rem;
+.nosso-programa h2 {
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 1rem;
 }
 
-.nosso-programa h3{
-    font-size:1rem;
+.nosso-programa h3 {
+    font-size: 1rem;
 }
 
-.nosso-programa span{
-    font-weight:bolder;
+.nosso-programa span {
+    font-weight: bolder;
 }
 
 
 @media screen and (max-width:767px) {
-    .showcase-text h2{
-        margin:2rem;
+    .showcase-text h2 {
+        margin: 2rem;
     }
 }
 
 @media screen and (min-width:768px) {
-    .nosso-programa img{
-        width:120px;
-        height:120px;
+    .nosso-programa img {
+        width: 120px;
+        height: 120px;
     }
 }
 
 @media screen and (min-width:992px) {
-    .nosso-programa img{
-        width:150px;
-        height:150px;
+    .nosso-programa img {
+        width: 150px;
+        height: 150px;
     }
 }
 
 @media screen and (min-width:1200px) {
-        .nosso-programa img{
-        width:180px;
-        height:180px;
+    .nosso-programa img {
+        width: 180px;
+        height: 180px;
     }
 }

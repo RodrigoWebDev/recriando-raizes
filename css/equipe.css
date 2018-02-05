@@ -1,110 +1,113 @@
 /*GERAL*/
+
 header.masthead {
     background: url("../img/equipe/equipe-banner.jpg") no-repeat center center;
-    background-size:cover;
-    background-position:top left;
+    background-size: cover;
+    background-position: top left;
 }
 
 
 /*Menu lateral direito*/
 
-.menu-right{
-    background:#322B2B;
-    color:#FFFFFF;
-    position:fixed;
-    top:0;
-    left:0;
-    padding:2rem;
-    width:550px;
-    height:100vh;
-    z-index:1;
-    display:none;
+.menu-right {
+    background: #322B2B;
+    color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+    width: 550px;
+    height: 100vh;
+    z-index: 1;
+    display: none;
 }
 
-.menu-right p{
-    margin:1rem;
+.menu-right p {
+    margin: 1rem;
 }
 
 
-.menu-right img{
-    width:100%;
-    height:100%;
+.menu-right img {
+    width: 100%;
+    height: 100%;
 }
 
-.menu-right h2, .voluntarios h2{
+.menu-right h2,
+.voluntarios h2 {
     text-transform: uppercase;
-    font-size:1.5rem;
+    font-size: 1.5rem;
 }
 
-.menu-right h4, .voluntarios h4{
-    font-size:1rem;
-    font-weight:lighter;
+.menu-right h4,
+.voluntarios h4 {
+    font-size: 1rem;
+    font-weight: lighter;
 }
 
-.menu-right .fa{
-    font-size:1.5rem;
-    color:inherit;
-    cursor:pointer;
+.menu-right .fa {
+    font-size: 1.5rem;
+    color: inherit;
+    cursor: pointer;
 }
 
-.menu-right .fa:hover{
-    color:#2ecc71;
+.menu-right .fa:hover {
+    color: #2ecc71;
 }
 
-.menu-right div:first-child{
-    display:flex;
+.menu-right div:first-child {
+    display: flex;
     justify-content: flex-end;
 }
 
 /*Voluntarios*/
 
-.voluntarios .row{
-    margin:0.5rem 0;
+.voluntarios .row {
+    margin: 0.5rem 0;
 }
 
-.voluntarios img{
-    width:100%;
-    height:100%;
+.voluntarios img {
+    width: 100%;
+    height: 100%;
 }
 
-.voluntarios .col-md-4 .col-md-8{
-    background:white;
-    padding:10px;
+.voluntarios .col-md-4 .col-md-8 {
+    background: white;
+    padding: 10px;
 }
 
-.voluntarios .col-md-4 .col-md-4{
-    padding:0 !important;
+.voluntarios .col-md-4 .col-md-4 {
+    padding: 0 !important;
 }
 
-.voluntarios .voluntario:hover{
-    cursor:pointer;
+.voluntarios .voluntario:hover {
+    cursor: pointer;
 }
 
-.voluntarios .diretor:hover{
-    cursor:pointer;
+.voluntarios .diretor:hover {
+    cursor: pointer;
 }
 
 
 /*TABS*/
 
-.tabs{
-    background:#322B2B;
+.tabs {
+    background: #322B2B;
 }
 
-.tabs p{
+.tabs p {
     text-align: center;
-    margin:0;
-    padding:2rem;
-    font-size:1.3rem;
-    font-weight:lighter;
-    color:white;
-    text-transform:uppercase;
+    margin: 0;
+    padding: 2rem;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: white;
+    text-transform: uppercase;
 }
 
-.tabs .active{
-    background-color:#2ecc71;
+.tabs .active {
+    background-color: #2ecc71;
 }
 
-.tab{
-    cursor:pointer;
+.tab {
+    cursor: pointer;
 }

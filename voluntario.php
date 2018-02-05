@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-  <head>
+<head>
     <title>Voluntário | Recriando raízes</title>
     <?php include "head.php"; ?>
     <link href="css/voluntario.css" rel="stylesheet">
- 
-    
 
-  </head>
 
-  <body>
+
+</head>
+
+<body>
     <?php include "nav.php"; ?>
-      
+
     <!-- Masthead -->
     <header class="masthead text-white text-center">
-      <div class="container">
-            <h1 class="mb-5">Faça parte</h1> 
+        <div class="container">
+            <h1 class="mb-5">Faça parte</h1>
             <h3>Você pode fazer a diferença na vida de centenas de crianças e jovens. Venha se juntar ao nosso time!</h3>
             <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdKYRyX1RgKmWzINZl_F59dpOntSNAevRrrLGt83ZfIJsLvFA/viewform" target="_blank">Junte-se a nós</a>
-          </div>
+        </div>
     </header>
 
     <section class="secao">
@@ -46,12 +46,12 @@
             </div>
         </div>
     </section>
-    
+
     <div class="container">
         <hr>
     </div>
-      
-    
+
+
     <section class="fazer-parte">
         <div class="container">
             <div class="row">
@@ -71,69 +71,69 @@
             </div>
         </div>
     </section>
-    
-     <div class="container">
+
+    <div class="container">
         <hr>
     </div>
-    
+
     <section class="areas">
         <div class="container">
             <h2>Por dentro do recriando raízes</h2>
             <h3>Conheça as principais áreas em que você pode se envolver</h3>
             <div>
-            <div class="row">
-                <div class="col-md-4">
-                    <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                    <p>Jurídico</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                        <p>Jurídico</p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                        <p>Educação</p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                        <p>Marketing</p>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <i class="fa fa-book" aria-hidden="true"></i>
-                    <p>Educação</p>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <i class="fa fa-music" aria-hidden="true"></i>
+                        <p>Música</p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa fa-futbol-o" aria-hidden="true"></i>
+                        <p>Esportes</p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p>Desenvolvimento social</p>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                    <p>Marketing</p>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <i class="fa fa-spoon" aria-hidden="true"></i>
+                        <p>Artesanato</p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        <p>Tecnologia</p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                        <p>Serviço social</p>
+                    </div>
                 </div>
             </div>
-            
-            <div class="row">
-                <div class="col-md-4">
-                    <i class="fa fa-music" aria-hidden="true"></i>
-                    <p>Música</p>
-                </div>
-                <div class="col-md-4">
-                    <i class="fa fa-futbol-o" aria-hidden="true"></i>
-                    <p>Esportes</p>
-                </div>
-                <div class="col-md-4">
-                    <i class="fa fa-users" aria-hidden="true"></i>
-                    <p>Desenvolvimento social</p>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-4">
-                    <i class="fa fa-spoon" aria-hidden="true"></i>
-                    <p>Artesanato</p>
-                </div>
-                <div class="col-md-4">
-                    <i class="fa fa-laptop" aria-hidden="true"></i>
-                    <p>Tecnologia</p>
-                </div>
-                <div class="col-md-4">
-                    <i class="fa fa-handshake-o" aria-hidden="true"></i>
-                    <p>Serviço social</p>
-                </div>
-            </div>
-            </div>
-            
+
         </div>
     </section>
-      
-   <?php include "footer.php"; ?>
-   <?php include "scripts.php"; ?>
-    
 
-  </body>
+    <?php include "footer.php"; ?>
+    <?php include "scripts.php"; ?>
+
+
+</body>
 
 </html>
