@@ -5,22 +5,22 @@ let closeLeftMenu = document.getElementsByClassName("close-left-menu")[0];
 
 
 for (i = 0; i < voluntario.length; i++) {
-    voluntario[i].onmouseover = function() {
+    voluntario[i].onmouseover = function () {
         var divRight = this.children[0].children[1];
         var h3 = divRight.children[0];
         divRight.style.background = "#2ecc71";
         divRight.style.color = "white";
         h3.style.color = "white";
     }
-    voluntario[i].onmouseout = function() {
+    voluntario[i].onmouseout = function () {
         var divRight = this.children[0].children[1];
         var h3 = divRight.children[0];
         divRight.style.background = "white";
         divRight.style.color = "inherit";
         h3.style.color = "inherit";
     }
-    
-    voluntario[i].onclick = function() {
+
+    voluntario[i].onclick = function () {
         let menuLeft = this.parentElement.parentElement.previousElementSibling;
         let imageClick = this.children[0].children[0].children[0].src;
         let image = menuLeft.children[1].children[0].children[0];
@@ -37,22 +37,22 @@ for (i = 0; i < voluntario.length; i++) {
 }
 
 for (i = 0; i < diretor.length; i++) {
-    diretor[i].onmouseover = function() {
+    diretor[i].onmouseover = function () {
         var divRight = this.children[0].children[1];
         var h3 = divRight.children[0];
         divRight.style.background = "#2ecc71";
         divRight.style.color = "white";
         h3.style.color = "white";
     }
-    diretor[i].onmouseout = function() {
+    diretor[i].onmouseout = function () {
         var divRight = this.children[0].children[1];
         var h3 = divRight.children[0];
         divRight.style.background = "white";
         divRight.style.color = "inherit";
         h3.style.color = "inherit";
     }
-    
-    diretor[i].onclick = function() {
+
+    diretor[i].onclick = function () {
         let menuLeft = this.parentElement.parentElement.previousElementSibling.previousElementSibling;
         let imageClick = this.children[0].children[0].children[0].src;
         let image = menuLeft.children[1].children[0].children[0];
@@ -68,7 +68,7 @@ for (i = 0; i < diretor.length; i++) {
     }
 }
 
-closeLeftMenu.onclick = function() {
+closeLeftMenu.onclick = function () {
     this.parentElement.parentElement.style.display = "none";
     console.log("click");
 }
@@ -82,7 +82,7 @@ voluntarios2.style.display = "none";
 
 
 
-tab[0].onclick = function() {
+tab[0].onclick = function () {
     tab[0].classList.remove("active");
     tab[1].classList.remove("active");
     this.classList.add("active");
@@ -90,7 +90,7 @@ tab[0].onclick = function() {
     voluntarios2.style.display = "none";
 }
 
-tab[1].onclick = function() {
+tab[1].onclick = function () {
     tab[0].classList.remove("active");
     tab[1].classList.remove("active");
     this.classList.add("active");

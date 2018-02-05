@@ -1,4 +1,3 @@
 $('.carousel').carousel({
     pause: "null"
 });
-

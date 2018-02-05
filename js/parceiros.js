@@ -7,7 +7,7 @@ parceiro2.style.display = "none";
 parceiro3.style.display = "none";
 parceiro4.style.display = "none";
 
-dot[0].onclick = function() {
+dot[0].onclick = function () {
     dot[1].classList.remove("active");
     dot[2].classList.remove("active");
     dot[3].classList.remove("active");
@@ -16,10 +16,10 @@ dot[0].onclick = function() {
     parceiro2.style.display = "none";
     parceiro3.style.display = "none";
     parceiro4.style.display = "none";
-    
+
 }
 
-dot[1].onclick = function() {
+dot[1].onclick = function () {
     dot[0].classList.remove("active");
     dot[2].classList.remove("active");
     dot[3].classList.remove("active");
@@ -28,10 +28,10 @@ dot[1].onclick = function() {
     parceiro2.style.display = "flex";
     parceiro3.style.display = "none";
     parceiro4.style.display = "none";
-    
+
 }
 
-dot[2].onclick = function() {
+dot[2].onclick = function () {
     dot[1].classList.remove("active");
     dot[0].classList.remove("active");
     dot[3].classList.remove("active");
@@ -40,10 +40,10 @@ dot[2].onclick = function() {
     parceiro2.style.display = "none";
     parceiro3.style.display = "flex";
     parceiro4.style.display = "none";
-    
+
 }
 
-dot[3].onclick = function() {
+dot[3].onclick = function () {
     dot[1].classList.remove("active");
     dot[2].classList.remove("active");
     dot[0].classList.remove("active");
@@ -52,5 +52,5 @@ dot[3].onclick = function() {
     parceiro2.style.display = "none";
     parceiro3.style.display = "none";
     parceiro4.style.display = "flex";
-    
+
 }

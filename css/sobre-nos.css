@@ -1,70 +1,73 @@
 /* GERAL */
+
 header.masthead {
     background: url("../img/sobre-nos/banner-nossa-historia.jpg") no-repeat center center;
 }
 
-.showcase{
-    padding:0;
+.showcase {
+    padding: 0;
 }
 
-.showcase .no-gutters div:nth-child(2) p{
-    font-size:1rem;
-    text-shadow:none;
+.showcase .no-gutters div:nth-child(2) p {
+    font-size: 1rem;
+    text-shadow: none;
 }
 
-.showcase-image img{
-    width:100%;
-    display:block;
-    margin:0 auto;
+.showcase-image img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
-.main h2{
-    text-align:center;
+.main h2 {
+    text-align: center;
 }
 
-.main p{
-    font-size:1rem;
-    text-shadow:none;
-    color:black;
+.main p {
+    font-size: 1rem;
+    text-shadow: none;
+    color: black;
     text-transform: none;
 }
 
 
 /* CONTEXTO */
 
-.contexto p, .fundadora p{
-    color:black;
-    font-weight:200;
+.contexto p,
+.fundadora p {
+    color: black;
+    font-weight: 200;
     line-height: 2rem;
 }
 
-.contexto h2, .fundadora h2{
+.contexto h2,
+.fundadora h2 {
     text-transform: uppercase;
 }
 
-.contexto .mapa i{
-    color:black;
+.contexto .mapa i {
+    color: black;
 }
 
-.contexto .mapa iframe{
-    width:100%;
-    height:300px;
+.contexto .mapa iframe {
+    width: 100%;
+    height: 300px;
 }
 
-.fundadora{
-    padding:2rem 0;
+.fundadora {
+    padding: 2rem 0;
 }
 
-.fundadora img{
-    width:80%;
+.fundadora img {
+    width: 80%;
 }
 
-.historia{
-    background-color:#ecf0f1;
+.historia {
+    background-color: #ecf0f1;
     box-shadow: 4px 1px 5px #34495e;
-    padding:1rem;
+    padding: 1rem;
 }
 
-section{
-    margin-bottom:4rem;
+section {
+    margin-bottom: 4rem;
 }

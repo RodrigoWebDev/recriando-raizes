@@ -1,97 +1,99 @@
 /* GERAL */
+
 header.masthead {
     background: url("../img/parceiros/parceiros-banner.jpg") no-repeat;
-    background-size:cover;
-    background-position:top right;
+    background-size: cover;
+    background-position: top right;
 }
 
-.masthead h3{
-    text-shadow:1px 1px 5px black;
+.masthead h3 {
+    text-shadow: 1px 1px 5px black;
 }
 
-.masthead span{
-    font-weight:bolder;
+.masthead span {
+    font-weight: bolder;
 }
 
-.showcase .text p{
-    font-size:1rem;
-    font-weight:lighter;
-    text-shadow:none;
+.showcase .text p {
+    font-size: 1rem;
+    font-weight: lighter;
+    text-shadow: none;
 }
 
 /*PARCEIRO*/
 
-.parceiro{
-    background:#2ecc71;
-    color:white;
-    padding:1.5rem;
+.parceiro {
+    background: #2ecc71;
+    color: white;
+    padding: 1.5rem;
 }
 
-.parceiro h2{
-    text-align:center;
+.parceiro h2 {
+    text-align: center;
     text-transform: uppercase;
-    font-size:1.9rem;
-    font-weight:bolder;
-    text-shadow:1px 1px 10px black;
+    font-size: 1.9rem;
+    font-weight: bolder;
+    text-shadow: 1px 1px 10px black;
 }
 
-.parceiro h3{
-    font-weight:lighter;
-    text-align:center;
+.parceiro h3 {
+    font-weight: lighter;
+    text-align: center;
     text-transform: uppercase;
-    text-shadow:1px 1px 10px black;
+    text-shadow: 1px 1px 10px black;
 }
 
-.parceiro .row{
-    padding:1rem;
+.parceiro .row {
+    padding: 1rem;
 }
 
-.parceiro .row h3{
-    font-weight:bold;
-    text-align:left;
+.parceiro .row h3 {
+    font-weight: bold;
+    text-align: left;
 }
 
-.parceiro hr{
-    background:white;
+.parceiro hr {
+    background: white;
 }
 
-.parceiro p{
-    font-size:1.2rem;
-    font-weight:lighter;
-    line-height:30px;
+.parceiro p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    line-height: 30px;
 }
 
-.parceiro img{
-    width:100%;
+.parceiro img {
+    width: 100%;
 }
 
-.parceiro .btn{
-    background-color:white;
-    color:#716b70;
-    display:block;
-    margin:0 auto;
-    width:200px;
+.parceiro .btn {
+    background-color: white;
+    color: #716b70;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
 }
 
-.parceiro .btn:hover{
-    background:#bdc3c7;
+.parceiro .btn:hover {
+    background: #bdc3c7;
 }
 
 /*PARCEIROS*/
 
-.parceiros h2{
-    margin:0;
-    padding-top:3rem;
+.parceiros h2 {
+    margin: 0;
+    padding-top: 3rem;
 }
 
-.parceiros h3{
-    font-weight:lighter;
-    text-align:center;
+.parceiros h3 {
+    font-weight: lighter;
+    text-align: center;
 }
 
 /*RESPONSIVIDADE*/
+
 @media screen and (max-width:435px) {
-    .showcase h2{
-        margin-top:2rem;
+    .showcase h2 {
+        margin-top: 2rem;
     }
 }

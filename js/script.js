@@ -1,8 +1,8 @@
 //Menu dropdown da navegação
-$('.dropdown').hover(function() {
-  $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(100);
-}, function() {
-  $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(100);
+$('.dropdown').hover(function () {
+    $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(100);
+}, function () {
+    $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(100);
 });
 
 
@@ -10,12 +10,12 @@ $('.dropdown').hover(function() {
 var close = document.getElementById("close");
 var menuDisplayButton = document.getElementById("navbar-toggler");
 
-close.onclick = function() {
+close.onclick = function () {
     var menu = document.getElementsByClassName("menu")[0];
     menu.style.display = "none";
 }
 
-menuDisplayButton.onclick = function() {
+menuDisplayButton.onclick = function () {
     var menu = document.getElementsByClassName("menu")[0];
     menu.style.display = "block";
 }

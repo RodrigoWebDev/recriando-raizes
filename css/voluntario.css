@@ -1,68 +1,66 @@
 /* GERAL */
+
 header.masthead {
     background: url("../img/voluntario/voluntario-banner.jpg") no-repeat center center;
-    background-size:cover;
-}
-
-.masthead .container h3{
+    background-size: cover;
 }
 
 /*SECAO*/
 
-.secao{
-    text-align:center;
+.secao {
+    text-align: center;
 }
 
-.secao .fa{
-    font-size:8rem;
-    color:inherit;
-    display:block;
-    
+.secao .fa {
+    font-size: 8rem;
+    color: inherit;
+    display: block;
+
 }
 
 /*Fazer parte*/
 
-.fazer-parte{
-    text-align:center;
-    background:white;
+.fazer-parte {
+    text-align: center;
+    background: white;
 }
 
-.fazer-parte h2{
-    font-size:1.5rem;
-    text-transform:uppercase;
+.fazer-parte h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
     padding: 2rem 0;
 }
 
-.fazer-parte h3{
-    border-left:20px solid #2DE558;
-    background:#DEEFDE;
+.fazer-parte h3 {
+    border-left: 20px solid #2DE558;
+    background: #DEEFDE;
 }
 
-.fazer-parte p{
-    font-size:1.2rem;
-    
+.fazer-parte p {
+    font-size: 1.2rem;
+
 }
 
 /*AREAS*/
 
-.areas .row{
-    margin:2rem 0;
+.areas .row {
+    margin: 2rem 0;
 }
 
-.areas{
-    text-align:center;
+.areas {
+    text-align: center;
 }
 
-.areas .fa{
-    font-size:4rem;
-    color:inherit;
+.areas .fa {
+    font-size: 4rem;
+    color: inherit;
 }
 
-.areas p{
-    font-size:1.2rem;
-    font-weight:bolder;
+.areas p {
+    font-size: 1.2rem;
+    font-weight: bolder;
 }
 
-.areas h3{
-    font-weight:lighter;
+.areas h3 {
+    font-weight: lighter;
 }
