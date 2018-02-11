@@ -14,7 +14,7 @@
     <?php include "nav.php"; ?>
 
     <!-- Masthead -->
-    <header class="masthead text-white text-center">
+    <header class="wow fadeIn masthead text-white text-center">
         <div class="container">
             <h1 class="mb-5">Faça parte</h1>
             <h3>Você pode fazer a diferença na vida de centenas de crianças e jovens. Venha se juntar ao nosso time!</h3>
@@ -24,7 +24,7 @@
 
     <section class="secao">
         <div class="container">
-            <div class="row">
+            <div class="wow fadeInUp row">
                 <div class="col-md-4">
                     <i class="fa fa-globe" aria-hidden="true"></i>
                     <h2>Nossas notícias</h2>
@@ -54,7 +54,7 @@
 
     <section class="fazer-parte">
         <div class="container">
-            <div class="row">
+            <div class="wow fadeInUp row">
                 <div class="col-md-6">
                     <h2>Por que fazer parte do Recriando Raízes?</h2>
                     <h3>Impacto</h3>
@@ -81,7 +81,7 @@
             <h2>Por dentro do recriando raízes</h2>
             <h3>Conheça as principais áreas em que você pode se envolver</h3>
             <div>
-                <div class="row">
+                <div class="wow fadeInUp row">
                     <div class="col-md-4">
                         <i class="fa fa-file-text-o" aria-hidden="true"></i>
                         <p>Jurídico</p>
@@ -96,7 +96,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="wow fadeInUp row">
                     <div class="col-md-4">
                         <i class="fa fa-music" aria-hidden="true"></i>
                         <p>Música</p>
@@ -111,7 +111,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="wow fadeInUp row">
                     <div class="col-md-4">
                         <i class="fa fa-spoon" aria-hidden="true"></i>
                         <p>Artesanato</p>

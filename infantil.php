@@ -12,7 +12,7 @@
     <?php include "nav.php"; ?>
 
     <!-- Masthead -->
-    <header class="masthead text-white text-center">
+    <header class="wow fadeIn masthead text-white text-center">
         <div class="container">
             <h1 class="mb-5">Crianças e adolescentes</h1>
             <h3> com direitos garantidos, se formando em cidadãos de bem</h3>
@@ -22,7 +22,7 @@
     <!-- Conteudo central -->
     <section class="showcase">
         <div class="container">
-            <div class="row">
+            <div class="wow fadeInUp row">
 
                 <div class="col-md-6 my-auto showcase-text1">
                     <p class="adjust" class="lead mb-0"><span>Nosso programa existe para conectar e cultivar</span> agentes de mudança do amanhã </p>
@@ -43,7 +43,7 @@
     <section class="nosso-programa">
         <div class="container">
             <h2><span>Nosso programa</span> por partes</h2>
-            <div class="row">
+            <div class="row wow fadeInUp">
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-4">
@@ -69,7 +69,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row wow fadeInUp">
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-4">
@@ -95,7 +95,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row wow fadeInUp">
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-4">

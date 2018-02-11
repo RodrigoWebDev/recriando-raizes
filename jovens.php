@@ -12,7 +12,7 @@
     <?php include "nav.php"; ?>
 
     <!-- Masthead -->
-    <header class="masthead text-white text-center">
+    <header class="wow fadeIn masthead text-white text-center">
         <div class="container">
             <h1 class="mb-5">Preparando jovens</h1>
             <h3>para liderar um novo amanhã para o Rio</h3>
@@ -22,7 +22,7 @@
     <!-- Conteudo central -->
     <section class="showcase">
         <div class="container">
-            <div class="row">
+            <div class="wow fadeInUp row">
 
                 <div class="col-md-6 my-auto showcase-text1">
                     <p class="adjust" class="lead mb-0"><span>Jovens gerando renda e</span> superando a vulnerabilidade social</p>
@@ -40,7 +40,7 @@
     <section class="nosso-programa">
         <div class="container">
             <h2><span>Cursos</span> oferecidos</h2>
-            <div class="row">
+            <div class="wow fadeInUp row">
                 <div class="col-md-6">
                     <h3>Refrigeração básica</h3>
                     <img src="img/jovens/refirgeracao.png" alt="refrigeração básica">
@@ -52,7 +52,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="wow fadeInUp row">
                 <div class="col-md-6">
                     <h3>Tranças e implantes</h3>
                     <img src="img/jovens/trancas.jpg" alt="Tranças e implantes">
@@ -64,7 +64,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="wow fadeInUp row">
                 <div class="col-md-6">
                     <h3>Manicure e pedicure</h3>
                     <img src="img/jovens/manicure.jpg" alt="Manicure e pedicure">
@@ -76,7 +76,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="wow fadeInUp row">
                 <div class="col-md-6">
                     <h3>Design de sobrancelha</h3>
                     <img src="img/jovens/sobrancelha.jpg" alt="Design de sobrancelha">
@@ -91,7 +91,7 @@
     </section>
 
     <!--SLIDER-->
-    <div class="container">
+    <div class="wow fadeInUp container">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">

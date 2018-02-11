@@ -1,4 +1,4 @@
-<section class="parceiros">
+<section class="wow fadeInUp parceiros">
       <div class="container">
         <h2>Parceiros</h2>
         <hr>

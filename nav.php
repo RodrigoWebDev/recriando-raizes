@@ -1,5 +1,5 @@
 <!-- Navegação -->
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+<nav class="wow fadeIn navbar navbar-toggleable-md navbar-light bg-faded">
     <div class="container">
         <a href="index.php"><img src="img/logo-melhorada.jpg"></a>
         <ul>

@@ -9,7 +9,7 @@
 <body>
     <?php include "nav.php"; ?>
     <!-- Masthead -->
-    <header class="masthead text-white text-center">
+    <header class="wow fadeIn masthead text-white text-center">
         <div class="container">
             <h1 class="mb-5">Recriando raízes</h1>
             <h3>erradicando os problemas da pobreza <br> investindo em crianças jovens e adolescentes</h3>
@@ -20,7 +20,7 @@
     <!-- Conteudo central -->
     <section class="showcase">
         <div class="container">
-            <div class="row">
+            <div class="wow fadeInUp row">
                 <div class="col-md-6 showcase-text">
                     <p><span>Pessoas comuns</span> se unindo para transformar vidas</p>
                     <a class="btn btn-primary" href="sobre-nos.php">Nossa história</a>
@@ -30,7 +30,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="wow fadeInUp row">
                 <div class="col-md-6 showcase-video"><iframe src="https://player.vimeo.com/video/226087751" width="640" height="1164" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                 <div class="col-md-6 showcase-text">
                     <p class="lead mb-0"><span>Erradicando a pobreza</span> através do investimento em crianças e família</p>
@@ -40,7 +40,7 @@
     </section>
 
     <!-- PAINEL -->
-    <div class="painel-buttons">
+    <div class="wow fadeInUp painel-buttons">
         <div class="painel-button">
             <p>Nosso impacto</p>
         </div>
@@ -53,7 +53,7 @@
 
     </div>
 
-    <section class="painel-center">
+    <section class="wow fadeInUp painel-center">
         <div class="container">
             <div class="animated fadeIn painel-inner painel-1">
                 <div class="row">
@@ -143,7 +143,7 @@
     </section>
 
     <!---------------------FAÇA PARTE----------------------->
-    <section class="faca-parte">
+    <section class="wow fadeInUp faca-parte">
         <div class="container">
             <h2>Ajude-nos a erradicar os problemas da pobreza</h2>
             <hr>

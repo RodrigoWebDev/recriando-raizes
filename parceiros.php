@@ -12,7 +12,7 @@
     <?php include "nav.php"; ?>
 
     <!-- Masthead -->
-    <header class="masthead text-white text-center">
+    <header class="wow fadeIn masthead text-white text-center">
         <div class="container">
             <h1>Nossos parceiros</h1>
             <h3>sabem que o Rio precisa de muito trabalho para erradicarmos os problemas da pobreza</h3>
@@ -23,7 +23,7 @@
     <!-- Conteudo central -->
     <section class="showcase">
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeInUp">
                 <div class="col-md-6 my-auto showcase-text">
                     <p><span>Com determinação e consciência</span>todos podem contribuir para um futuro melhor</p>
                 </div>
@@ -36,7 +36,7 @@
         </div>
     </section>
 
-    <section class="parceiro">
+    <section class="wow fadeInUp parceiro">
         <div class="container">
             <h2 class="">Seja nosso parceiro</h2>
             <h3>Juntos, nós podemos construir um mundo mais inclusivo</h3>

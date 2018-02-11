@@ -1,5 +1,5 @@
 <!--SLIDER-->
-<div class="container">
+<div class="wow fadeInUp container">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">

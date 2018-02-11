@@ -11,7 +11,7 @@
     <?php include "nav.php"; ?>
 
     <!-- Masthead -->
-    <header class="masthead text-white text-center">
+    <header class="wow fadeIn masthead text-white text-center">
         <div class="container">
             <h1 class="mb-5">Informações e ações</h1>
             <h3>para empoderar mulheres buscando a equidade de gênero</h3>
@@ -21,7 +21,7 @@
     <!-- Conteudo central -->
     <section class="showcase">
         <div class="container">
-            <div class="row">
+            <div class="wow fadeInUp row">
 
                 <div class="col-md-6 my-auto showcase-text1">
                     <p class="adjust" class="lead mb-0"><span>Costa Barros de Rosa existe</span> para despertar em cada mulher o seu potencial máximo</p>
@@ -39,7 +39,7 @@
         <hr>
     </div>
     <!--SLIDER-->
-    <div class="container">
+    <div class="wow fadeInUp container">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
