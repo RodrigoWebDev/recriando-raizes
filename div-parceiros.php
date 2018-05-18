@@ -15,7 +15,7 @@
           </div>
           <div class="col-md-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-               <a href="https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwiYnJWLnNXYAhXCkZAKHRRADA0QFggsMAA&url=https%3A%2F%2Fwww.eda.admin.ch%2Friodejaneiro&usg=AOvVaw3zLcj-qYB7wIqjbBaGX9I8" target="_blank"><img class="img-fluid mb-3" src="img/parceiros/consulado-suica.jpg" alt=""></a>
+               <a href="https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwiYnJWLnNXYAhXCkZAKHRRADA0QFggsMAA&url=https%3A%2F%2Fwww.eda.admin.ch%2Friodejaneiro&usg=AOvVaw3zLcj-qYB7wIqjbBaGX9I8" target="_blank"><img class="img-fluid mb-3" src="img/parceiros/consulado-suica.jpg" alt="Consulado Suiça"></a>
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@
           </div>
           <div class="col-md-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-               <a href="https://rodrigowebdev.github.io/devninja.github.io/" target="_blank"><img class="img-fluid mb-3" src="img/parceiros/dev-ninja.png" alt="Dev Ninja desenvolvimento Web"></a>
+               <a href="https://rodrigowebdev.github.io/rodrigo-queiroz/" target="_blank"><img class="img-fluid mb-3" src="img/parceiros/dev-ninja.png" alt="Rodrigo Queiroz Desenvolvedor Web"></a>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@
           </div>
           <div class="col-md-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-               <a href="http://tech.marinapelosi.com/" target="_blank"><img class="img-fluid mb-3" src="img/parceiros/rs.jpeg" alt="Marina pelosi analista de sistemas"></a>
+               <a href="#" target="_blank"><img class="img-fluid mb-3" src="img/parceiros/rs.jpeg" alt="RS acessoria e contabilidade"></a>
             </div>
           </div>
         </div>
