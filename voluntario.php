@@ -29,7 +29,7 @@
                     <i class="fa fa-globe" aria-hidden="true"></i>
                     <h2>Nossas notícias</h2>
                     <p>Saiba como o Recriado Raízes está mudando a vida de centenas de pessoas.</p>
-                    <a class="btn btn-primary" href="#">Clique aqui</a>
+                    <a class="btn btn-primary" href="http://noticiasrr.epizy.com/" target="_blank">Clique aqui</a>
                 </div>
                 <div class="col-md-4">
                     <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
@@ -41,7 +41,7 @@
                     <i class="fa fa-calendar" aria-hidden="true"></i>
                     <h2>Nossos eventos</h2>
                     <p>Confira aqui os eventos especiais e junte-se a nós nessas datas importantes</p>
-                    <a class="btn btn-primary" href="eventos.php">Clique aqui</a>
+                    <a class="btn btn-primary" href="http://noticiasrr.epizy.com/" target="_blank">Clique aqui</a>
                 </div>
             </div>
         </div>

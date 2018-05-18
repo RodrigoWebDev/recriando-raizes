@@ -42,6 +42,7 @@ header.masthead {
     background-size: cover;
     padding-top: 8rem;
     padding-bottom: 8rem;
+    background-position-y: 10px;
 }
 
 header.masthead .overlay {
@@ -137,12 +138,14 @@ footer.footer {
     transition: 0.3s;
     text-transform: uppercase;
     padding: 10px 40px;
+    font-weight:600;
+    font-size:0.9rem;
 }
 
 .btn:hover {
-    background: #27ae60;
-    color: black;
+    background:#58D68D;
     cursor: pointer;
+    
 }
 
 .display {
@@ -177,7 +180,7 @@ hr {
 }
 
 nav {
-    border-bottom: 3px solid silver;
+    box-shadow: 0 5px 10px 0 rgba(50, 50, 50, 0.06);
     position: fixed !important;
     z-index: 1;
     width: 100%;
@@ -208,7 +211,10 @@ nav ul {
 }
 
 nav ul li a {
-    color: rgba(0, 0, 0, .5);
+    color: #333333;
+    font-family: "Raleway", Helvetica, Arial, sans-serif ;
+    font-size:13px;
+    font-weight:600;
 }
 
 nav ul li a:hover {

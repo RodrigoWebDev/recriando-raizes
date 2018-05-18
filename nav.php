@@ -21,7 +21,7 @@
                     <a class="dropdown-item" href="infantil.php">Infantil/Educação</a>
                     <a class="dropdown-item" href="jovens.php">Jovens/Geração de renda</a>
                     <a class="dropdown-item" href="mulheres.php">Mulheres/Empoderamento</a>
-                    <a class="dropdown-item" href="eventos.php">Eventos</a>
+                    <a class="dropdown-item" href="http://noticiasrr.epizy.com/" target="_blank">Blog</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -86,7 +86,7 @@
                         <a class="dropdown-item" href="infantil.php">Infantil</a>
                         <a class="dropdown-item" href="jovens.php">Jovens</a>
                         <a class="dropdown-item" href="mulheres.php">Mulheres</a>
-                        <a class="dropdown-item" href="eventos.php">Eventos</a>
+                        <a class="dropdown-item" href="http://noticiasrr.epizy.com/" target="_blank">Blog</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
